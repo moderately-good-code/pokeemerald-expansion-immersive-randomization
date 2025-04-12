@@ -4,7 +4,8 @@
 #include "randomization_utilities.h"
 #include "type_coverage_utilities.h"
 #include "constants/abilities.h"
-#include "constants/moves.h"
+// #include "constants/moves.h"
+#include "move.h"
 #include "constants/trainers.h"
 #include "data/pokemon/smogon_gen8lc.h"
 #include "data/pokemon/smogon_gen8zu.h"
@@ -477,7 +478,7 @@ static void SetRandomizedMoves(struct Pokemon* originalMon, u16 smogonId,
                     ))
             {
                 // move is valid candidate
-                if (gBattleMoves[randomized].split == SPLIT_STATUS)
+                if (gMovesInfo[randomized].category == DAMAGE_CATEGORY_STATUS)
                 {
                     // accept status move candidates with constant probability
                     (*seed).state = CompactRandom(seed);
@@ -493,7 +494,7 @@ static void SetRandomizedMoves(struct Pokemon* originalMon, u16 smogonId,
                 {
                     // attack moves are accepted depending on their type coverage
                     coverageTemporary = coverage;
-                    UpdateTypeCoverageForMove(&coverageTemporary, gBattleMoves[randomized].type);
+                    UpdateTypeCoverageForMove(&coverageTemporary, gMovesInfo[randomized].type);
                     currentCoverageScore = GetTypeCoverageScore(&coverageTemporary);
                     if (currentCoverageScore > bestCoverageScore)
                     {
@@ -505,9 +506,9 @@ static void SetRandomizedMoves(struct Pokemon* originalMon, u16 smogonId,
 
                 if (++currentCandidateNumber == NUM_MOVE_RANDOMIZATION_CANDIDATES)
                 {
-                    if (gBattleMoves[randomized].split != SPLIT_STATUS)
+                    if (gMovesInfo[randomized].category != DAMAGE_CATEGORY_STATUS)
                     {
-                        UpdateTypeCoverageForMove(&coverage, gBattleMoves[randomized].type);
+                        UpdateTypeCoverageForMove(&coverage, gMovesInfo[randomized].type);
                     }
                     if (moves[i] == MOVE_NONE)
                     {
@@ -520,7 +521,7 @@ static void SetRandomizedMoves(struct Pokemon* originalMon, u16 smogonId,
 
         // assign randomized move
         SetMonData(originalMon, MON_DATA_MOVE1 + i, &randomized);
-        SetMonData(originalMon, MON_DATA_PP1 + i, &gBattleMoves[randomized].pp);
+        SetMonData(originalMon, MON_DATA_PP1 + i, &gMovesInfo[randomized].pp);
     }
 }
 
@@ -1189,7 +1190,7 @@ void SetRandomizedAbility(struct BattlePokemon* battleMon, u16 trainerNum_A,
     //     {
     //         continue;
     //     }
-    //     switch (gBattleMoves[battleMon->moves[i]].split)
+    //     switch (gMovesInfo[battleMon->moves[i]].category)
     //     {
     //     case SPLIT_PHYSICAL:
     //         physical_attacks++;
@@ -1197,11 +1198,11 @@ void SetRandomizedAbility(struct BattlePokemon* battleMon, u16 trainerNum_A,
     //     case SPLIT_SPECIAL:
     //         special_attacks++;
     //         break;
-    //     case SPLIT_STATUS:
+    //     case DAMAGE_CATEGORY_STATUS:
     //         status_attacks++;
     //         break;
     //     }
-    //     if (gBattleMoves[battleMon->moves[i]].effect == EFFECT_HIT_ESCAPE)
+    //     if (gMovesInfo[battleMon->moves[i]].effect == EFFECT_HIT_ESCAPE)
     //     {
     //         escape_attacks++;
     //     }
