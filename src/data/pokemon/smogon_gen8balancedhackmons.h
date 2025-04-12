@@ -1471,7 +1471,7 @@ static const struct SmogonItems sXerneasItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sXerneasTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_REGIGIGAS, 5377},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4969},
+	{SPECIES_ZAMAZENTA_CROWNED, 4969},
 	{SPECIES_HO_OH, 4309},
 	{SPECIES_CHANSEY, 3049},
 	{SPECIES_GIRATINA, 2810},
@@ -1570,7 +1570,7 @@ static const struct SmogonItems sRegigigasItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sRegigigasTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_XERNEAS, 5694},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4235},
+	{SPECIES_ZAMAZENTA_CROWNED, 4235},
 	{SPECIES_HO_OH, 4110},
 	{SPECIES_ZYGARDE_COMPLETE, 3631},
 	{SPECIES_CHANSEY, 2668},
@@ -1703,7 +1703,7 @@ static const struct SmogonItems sGiratinaItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sGiratinaTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 6391},
+	{SPECIES_ZAMAZENTA_CROWNED, 6391},
 	{SPECIES_HO_OH, 3270},
 	{SPECIES_XERNEAS, 3134},
 	{SPECIES_ZYGARDE_COMPLETE, 2837},
@@ -1816,7 +1816,7 @@ static const struct SmogonItems sHo_OhItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sHo_OhTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 5673},
+	{SPECIES_ZAMAZENTA_CROWNED, 5673},
 	{SPECIES_XERNEAS, 4806},
 	{SPECIES_REGIGIGAS, 4329},
 	{SPECIES_GIRATINA, 3271},
@@ -1934,7 +1934,7 @@ static const struct SmogonItems sZygarde_CompleteItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sZygarde_CompleteTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4979},
+	{SPECIES_ZAMAZENTA_CROWNED, 4979},
 	{SPECIES_REGIGIGAS, 4546},
 	{SPECIES_XERNEAS, 3617},
 	{SPECIES_GIRATINA, 3373},
@@ -2053,7 +2053,7 @@ static const struct SmogonTeammates sChanseyTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_XERNEAS, 4830},
 	{SPECIES_REGIGIGAS, 3991},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3561},
+	{SPECIES_ZAMAZENTA_CROWNED, 3561},
 	{SPECIES_HO_OH, 3192},
 	{SPECIES_ZYGARDE_COMPLETE, 2799},
 	{SPECIES_GIRATINA, 2691},
@@ -2152,7 +2152,7 @@ static const struct SmogonItems sEternatusItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sEternatusTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 6213},
+	{SPECIES_ZAMAZENTA_CROWNED, 6213},
 	{SPECIES_XERNEAS, 3835},
 	{SPECIES_REGIGIGAS, 3405},
 	{SPECIES_HO_OH, 3363},
@@ -2284,7 +2284,7 @@ static const struct SmogonTeammates sYveltalTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_XERNEAS, 5462},
 	{SPECIES_REGIGIGAS, 4654},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3775},
+	{SPECIES_ZAMAZENTA_CROWNED, 3775},
 	{SPECIES_CHANSEY, 3496},
 	{SPECIES_ZYGARDE_COMPLETE, 3237},
 	{SPECIES_HO_OH, 2789},
@@ -2405,7 +2405,7 @@ static const struct SmogonItems sBlisseyItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sBlisseyTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_GIRATINA, 4154},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3688},
+	{SPECIES_ZAMAZENTA_CROWNED, 3688},
 	{SPECIES_HO_OH, 3637},
 	{SPECIES_TAPU_FINI, 3073},
 	{SPECIES_CHANSEY, 2732},
@@ -2508,7 +2508,7 @@ static const struct SmogonItems sKyurem_BlackItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sKyurem_BlackTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_HO_OH, 4370},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4279},
+	{SPECIES_ZAMAZENTA_CROWNED, 4279},
 	{SPECIES_XERNEAS, 2659},
 	{SPECIES_ETERNATUS, 2543},
 	{SPECIES_GIRATINA, 2211},
@@ -2622,7 +2622,7 @@ static const struct SmogonItems sMagearnaItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sMagearnaTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 5079},
+	{SPECIES_ZAMAZENTA_CROWNED, 5079},
 	{SPECIES_ZYGARDE_COMPLETE, 4114},
 	{SPECIES_GIRATINA, 3355},
 	{SPECIES_HO_OH, 2313},
@@ -2727,7 +2727,7 @@ static const struct SmogonItems sTapu_FiniItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sTapu_FiniTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 5852},
+	{SPECIES_ZAMAZENTA_CROWNED, 5852},
 	{SPECIES_GIRATINA, 4886},
 	{SPECIES_BLISSEY, 3745},
 	{SPECIES_HO_OH, 3489},
@@ -2756,7 +2756,7 @@ static const struct SmogonTeammates sTapu_FiniTeammates_gen8balancedhackmons[] =
 	{SPECIES_ZACIAN, 441},
 	{SPECIES_HEATRAN, 429},
 	{SPECIES_WISHIWASHI_SCHOOL, 413},
-	{SPECIES_DARMANITAN_ZEN_MODE, 405},
+	{SPECIES_DARMANITAN_ZEN, 405},
 };
 
 static const struct SmogonAbilities sTapu_FiniAbilities_gen8balancedhackmons[] =
@@ -2828,7 +2828,7 @@ static const struct SmogonTeammates sMelmetalTeammates_gen8balancedhackmons[] =
 	{SPECIES_ZYGARDE_COMPLETE, 4131},
 	{SPECIES_CHANSEY, 3968},
 	{SPECIES_GIRATINA, 3246},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 2943},
+	{SPECIES_ZAMAZENTA_CROWNED, 2943},
 	{SPECIES_YVELTAL, 2934},
 	{SPECIES_TAPU_FINI, 2366},
 	{SPECIES_HO_OH, 2304},
@@ -2931,7 +2931,7 @@ static const struct SmogonItems sPalkiaItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sPalkiaTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_REGIGIGAS, 4870},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4226},
+	{SPECIES_ZAMAZENTA_CROWNED, 4226},
 	{SPECIES_GIRATINA, 2943},
 	{SPECIES_HO_OH, 2882},
 	{SPECIES_XERNEAS, 2775},
@@ -3040,7 +3040,7 @@ static const struct SmogonItems sDragapultItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sDragapultTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_XERNEAS, 4015},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3458},
+	{SPECIES_ZAMAZENTA_CROWNED, 3458},
 	{SPECIES_HO_OH, 3034},
 	{SPECIES_CHANSEY, 2963},
 	{SPECIES_REGIGIGAS, 2682},
@@ -3144,7 +3144,7 @@ static const struct SmogonItems sGroudonItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sGroudonTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 6448},
+	{SPECIES_ZAMAZENTA_CROWNED, 6448},
 	{SPECIES_HO_OH, 5180},
 	{SPECIES_GIRATINA, 4769},
 	{SPECIES_REGIGIGAS, 4671},
@@ -3242,7 +3242,7 @@ static const struct SmogonItems sBarraskewdaItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sBarraskewdaTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 5451},
+	{SPECIES_ZAMAZENTA_CROWNED, 5451},
 	{SPECIES_ZYGARDE_COMPLETE, 3156},
 	{SPECIES_REGIGIGAS, 2607},
 	{SPECIES_ZEKROM, 2550},
@@ -3348,7 +3348,7 @@ static const struct SmogonTeammates sDialgaTeammates_gen8balancedhackmons[] =
 	{SPECIES_CHANSEY, 5002},
 	{SPECIES_XERNEAS, 4224},
 	{SPECIES_REGIGIGAS, 3839},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3114},
+	{SPECIES_ZAMAZENTA_CROWNED, 3114},
 	{SPECIES_PALKIA, 2931},
 	{SPECIES_GIRATINA, 2434},
 	{SPECIES_ZYGARDE_COMPLETE, 2197},
@@ -3366,7 +3366,7 @@ static const struct SmogonTeammates sDialgaTeammates_gen8balancedhackmons[] =
 	{SPECIES_AEGISLASH, 877},
 	{SPECIES_GIRATINA_ORIGIN, 818},
 	{SPECIES_BARRASKEWDA, 696},
-	{SPECIES_DARMANITAN_ZEN_MODE, 683},
+	{SPECIES_DARMANITAN_ZEN, 683},
 	{SPECIES_MEWTWO, 655},
 	{SPECIES_VOLCANION, 638},
 	{SPECIES_ZAMAZENTA, 534},
@@ -3460,7 +3460,7 @@ static const struct SmogonTeammates sCalyrexIceRiderTeammates_gen8balancedhackmo
 {
 	{SPECIES_ZYGARDE_COMPLETE, 4677},
 	{SPECIES_GIRATINA, 4537},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4390},
+	{SPECIES_ZAMAZENTA_CROWNED, 4390},
 	{SPECIES_HEATRAN, 3350},
 	{SPECIES_RESHIRAM, 2990},
 	{SPECIES_MAGEARNA, 2873},
@@ -3574,7 +3574,7 @@ static const struct SmogonTeammates sKartanaTeammates_gen8balancedhackmons[] =
 	{SPECIES_CHANSEY, 2772},
 	{SPECIES_HO_OH, 2533},
 	{SPECIES_ZYGARDE_COMPLETE, 2118},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 1957},
+	{SPECIES_ZAMAZENTA_CROWNED, 1957},
 	{SPECIES_REGISTEEL, 1777},
 	{SPECIES_ETERNATUS, 1548},
 	{SPECIES_BLISSEY, 1170},
@@ -3691,7 +3691,7 @@ static const struct SmogonTeammates sKyurem_WhiteTeammates_gen8balancedhackmons[
 	{SPECIES_YVELTAL, 3375},
 	{SPECIES_REGIGIGAS, 3098},
 	{SPECIES_RAYQUAZA, 2664},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 2527},
+	{SPECIES_ZAMAZENTA_CROWNED, 2527},
 	{SPECIES_GIRATINA, 2168},
 	{SPECIES_NECROZMA_DUSK_MANE, 1964},
 	{SPECIES_TOXAPEX, 1827},
@@ -3792,7 +3792,7 @@ static const struct SmogonItems sLunalaItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sLunalaTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_XERNEAS, 6013},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4835},
+	{SPECIES_ZAMAZENTA_CROWNED, 4835},
 	{SPECIES_HO_OH, 3628},
 	{SPECIES_REGIGIGAS, 3580},
 	{SPECIES_ZYGARDE_COMPLETE, 3322},
@@ -3810,7 +3810,7 @@ static const struct SmogonTeammates sLunalaTeammates_gen8balancedhackmons[] =
 	{SPECIES_KYUREM_BLACK, 1030},
 	{SPECIES_BLISSEY, 1019},
 	{SPECIES_KARTANA, 886},
-	{SPECIES_DARMANITAN_ZEN_MODE, 849},
+	{SPECIES_DARMANITAN_ZEN, 849},
 	{SPECIES_REGISTEEL, 591},
 	{SPECIES_OBSTAGOON, 591},
 	{SPECIES_THUNDURUS_THERIAN, 591},
@@ -3891,7 +3891,7 @@ static const struct SmogonItems sZacianItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sZacianTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 5574},
+	{SPECIES_ZAMAZENTA_CROWNED, 5574},
 	{SPECIES_GIRATINA, 3525},
 	{SPECIES_REGIGIGAS, 2604},
 	{SPECIES_HO_OH, 2569},
@@ -4004,7 +4004,7 @@ static const struct SmogonItems sNecrozma_DuskManeItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sNecrozma_DuskManeTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 7152},
+	{SPECIES_ZAMAZENTA_CROWNED, 7152},
 	{SPECIES_XERNEAS, 4350},
 	{SPECIES_HO_OH, 3502},
 	{SPECIES_GIRATINA, 2702},
@@ -4112,7 +4112,7 @@ static const struct SmogonItems sRegisteelItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sRegisteelTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_ZYGARDE_COMPLETE, 3257},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 2951},
+	{SPECIES_ZAMAZENTA_CROWNED, 2951},
 	{SPECIES_GIRATINA, 2881},
 	{SPECIES_BLISSEY, 2694},
 	{SPECIES_DRAGAPULT, 2593},
@@ -4216,7 +4216,7 @@ static const struct SmogonItems sMewtwoItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sMewtwoTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4474},
+	{SPECIES_ZAMAZENTA_CROWNED, 4474},
 	{SPECIES_ETERNATUS, 4273},
 	{SPECIES_GIRATINA, 3811},
 	{SPECIES_KYUREM_BLACK, 3336},
@@ -4316,7 +4316,7 @@ static const struct SmogonItems sNecrozma_DawnWingsItems_gen8balancedhackmons[] 
 
 static const struct SmogonTeammates sNecrozma_DawnWingsTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 8105},
+	{SPECIES_ZAMAZENTA_CROWNED, 8105},
 	{SPECIES_ZYGARDE_COMPLETE, 5459},
 	{SPECIES_PALKIA, 4569},
 	{SPECIES_GIRATINA, 3956},
@@ -4416,7 +4416,7 @@ static const struct SmogonItems sKyogreItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sKyogreTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4956},
+	{SPECIES_ZAMAZENTA_CROWNED, 4956},
 	{SPECIES_XERNEAS, 4902},
 	{SPECIES_GIRATINA, 4863},
 	{SPECIES_REGIGIGAS, 3447},
@@ -4534,7 +4534,7 @@ static const struct SmogonTeammates sHeatranTeammates_gen8balancedhackmons[] =
 	{SPECIES_ZEKROM, 1068},
 	{SPECIES_MAROWAK_ALOLA, 921},
 	{SPECIES_KYOGRE, 818},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 818},
+	{SPECIES_ZAMAZENTA_CROWNED, 818},
 	{SPECIES_DRAGAPULT, 793},
 	{SPECIES_KYUREM_WHITE, 780},
 	{SPECIES_MELMETAL, 774},
@@ -4621,7 +4621,7 @@ static const struct SmogonTeammates sToxapexTeammates_gen8balancedhackmons[] =
 	{SPECIES_FERROTHORN, 2556},
 	{SPECIES_YVELTAL, 2282},
 	{SPECIES_MAGEARNA, 2209},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 1936},
+	{SPECIES_ZAMAZENTA_CROWNED, 1936},
 	{SPECIES_GUZZLORD, 1748},
 	{SPECIES_ZACIAN, 1742},
 	{SPECIES_EXCADRILL, 1704},
@@ -4720,7 +4720,7 @@ static const struct SmogonTeammates sRegielekiTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_ETERNATUS, 5096},
 	{SPECIES_REGIGIGAS, 4507},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3205},
+	{SPECIES_ZAMAZENTA_CROWNED, 3205},
 	{SPECIES_KYUREM_BLACK, 3031},
 	{SPECIES_BLISSEY, 2978},
 	{SPECIES_MEWTWO, 2709},
@@ -4829,7 +4829,7 @@ static const struct SmogonTeammates sReshiramTeammates_gen8balancedhackmons[] =
 	{SPECIES_CALYREX_ICE, 5887},
 	{SPECIES_HEATRAN, 5780},
 	{SPECIES_MAGEARNA, 5658},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3721},
+	{SPECIES_ZAMAZENTA_CROWNED, 3721},
 	{SPECIES_XERNEAS, 3312},
 	{SPECIES_NECROZMA_DUSK_MANE, 2551},
 	{SPECIES_KYOGRE, 2380},
@@ -4916,7 +4916,7 @@ static const struct SmogonItems sZekromItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sZekromTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 6580},
+	{SPECIES_ZAMAZENTA_CROWNED, 6580},
 	{SPECIES_ZYGARDE_COMPLETE, 5225},
 	{SPECIES_BARRASKEWDA, 4917},
 	{SPECIES_XERNEAS, 3704},
@@ -5021,7 +5021,7 @@ static const struct SmogonItems sLugiaItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sLugiaTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_GIRATINA, 4736},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4711},
+	{SPECIES_ZAMAZENTA_CROWNED, 4711},
 	{SPECIES_TAPU_FINI, 4013},
 	{SPECIES_UMBREON, 4013},
 	{SPECIES_MELMETAL, 3923},
@@ -5124,7 +5124,7 @@ static const struct SmogonItems sAegislashItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sAegislashTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_TOXAPEX, 5121},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4613},
+	{SPECIES_ZAMAZENTA_CROWNED, 4613},
 	{SPECIES_FERROTHORN, 4067},
 	{SPECIES_YVELTAL, 3981},
 	{SPECIES_INCINEROAR, 3556},
@@ -5219,7 +5219,7 @@ static const struct SmogonItems sCelesteelaItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sCelesteelaTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_XERNEAS, 4956},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4134},
+	{SPECIES_ZAMAZENTA_CROWNED, 4134},
 	{SPECIES_GIRATINA, 3043},
 	{SPECIES_REGIGIGAS, 2911},
 	{SPECIES_CHANSEY, 2876},
@@ -5308,7 +5308,7 @@ static const struct SmogonItems sUmbreonItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sUmbreonTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 8193},
+	{SPECIES_ZAMAZENTA_CROWNED, 8193},
 	{SPECIES_TAPU_FINI, 8109},
 	{SPECIES_LUGIA, 5119},
 	{SPECIES_GIRATINA, 4947},
@@ -5393,7 +5393,7 @@ static const struct SmogonItems sTypeNullItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sTypeNullTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_XERNEAS, 4593},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3884},
+	{SPECIES_ZAMAZENTA_CROWNED, 3884},
 	{SPECIES_GIRATINA, 3290},
 	{SPECIES_CALYREX_ICE, 3198},
 	{SPECIES_GROUDON, 3145},
@@ -5496,7 +5496,7 @@ static const struct SmogonTeammates sRayquazaTeammates_gen8balancedhackmons[] =
 	{SPECIES_BLISSEY, 1349},
 	{SPECIES_KYUREM_BLACK, 1319},
 	{SPECIES_AEGISLASH, 1069},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 1025},
+	{SPECIES_ZAMAZENTA_CROWNED, 1025},
 	{SPECIES_ZYGARDE_COMPLETE, 914},
 	{SPECIES_DIALGA, 860},
 	{SPECIES_KYOGRE, 600},
@@ -5587,7 +5587,7 @@ static const struct SmogonItems sPheromosaItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sPheromosaTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 7398},
+	{SPECIES_ZAMAZENTA_CROWNED, 7398},
 	{SPECIES_BARRASKEWDA, 5179},
 	{SPECIES_ZYGARDE_COMPLETE, 4702},
 	{SPECIES_ZEKROM, 4602},
@@ -5704,7 +5704,7 @@ static const struct SmogonTeammates sGiratina_OriginTeammates_gen8balancedhackmo
 	{SPECIES_PALKIA, 2334},
 	{SPECIES_DIALGA, 2208},
 	{SPECIES_VOLCANION, 1721},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 1693},
+	{SPECIES_ZAMAZENTA_CROWNED, 1693},
 	{SPECIES_CHANSEY, 1653},
 	{SPECIES_MELMETAL, 1586},
 	{SPECIES_XERNEAS, 1331},
@@ -5794,7 +5794,7 @@ static const struct SmogonTeammates sUrshifuTeammates_gen8balancedhackmons[] =
 	{SPECIES_KYUREM_BLACK, 4314},
 	{SPECIES_REGIELEKI, 4226},
 	{SPECIES_XERNEAS, 3841},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 2852},
+	{SPECIES_ZAMAZENTA_CROWNED, 2852},
 	{SPECIES_CHANSEY, 2471},
 	{SPECIES_GIRATINA, 1729},
 	{SPECIES_HO_OH, 1713},
@@ -5909,7 +5909,7 @@ static const struct SmogonTeammates sFerrothornTeammates_gen8balancedhackmons[] 
 	{SPECIES_BARRASKEWDA, 803},
 	{SPECIES_PALKIA, 790},
 	{SPECIES_KYOGRE, 739},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 721},
+	{SPECIES_ZAMAZENTA_CROWNED, 721},
 	{SPECIES_BLISSEY, 721},
 	{SPECIES_CORVIKNIGHT, 721},
 	{SPECIES_TYPE_NULL, 715},
@@ -5975,7 +5975,7 @@ static const struct SmogonItems sVolcanionItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sVolcanionTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_ZYGARDE_COMPLETE, 5253},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4335},
+	{SPECIES_ZAMAZENTA_CROWNED, 4335},
 	{SPECIES_DRAGAPULT, 3530},
 	{SPECIES_XERNEAS, 3144},
 	{SPECIES_KYUREM_BLACK, 2884},
@@ -6068,7 +6068,7 @@ static const struct SmogonItems sShuckleItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sShuckleTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_REGIGIGAS, 4885},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4764},
+	{SPECIES_ZAMAZENTA_CROWNED, 4764},
 	{SPECIES_YVELTAL, 4323},
 	{SPECIES_ETERNATUS, 3091},
 	{SPECIES_ZYGARDE_COMPLETE, 2570},
@@ -6175,7 +6175,7 @@ static const struct SmogonTeammates sBlacephalonTeammates_gen8balancedhackmons[]
 {
 	{SPECIES_KYUREM_BLACK, 4152},
 	{SPECIES_ETERNATUS, 3745},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3254},
+	{SPECIES_ZAMAZENTA_CROWNED, 3254},
 	{SPECIES_TAPU_FINI, 2089},
 	{SPECIES_TYPE_NULL, 2089},
 	{SPECIES_DRAGAPULT, 2047},
@@ -6262,7 +6262,7 @@ static const struct SmogonTeammates sZamazentaTeammates_gen8balancedhackmons[] =
 	{SPECIES_REGIGIGAS, 4703},
 	{SPECIES_CELESTEELA, 4079},
 	{SPECIES_GROUDON, 3827},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 2648},
+	{SPECIES_ZAMAZENTA_CROWNED, 2648},
 	{SPECIES_DIALGA, 2431},
 	{SPECIES_ZYGARDE_COMPLETE, 2431},
 	{SPECIES_HO_OH, 2166},
@@ -6353,7 +6353,7 @@ static const struct SmogonTeammates sCresseliaTeammates_gen8balancedhackmons[] =
 	{SPECIES_ZYGARDE_COMPLETE, 1742},
 	{SPECIES_ETERNATUS, 268},
 	{SPECIES_TOXAPEX, 268},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 268},
+	{SPECIES_ZAMAZENTA_CROWNED, 268},
 	{SPECIES_BARRASKEWDA, 210},
 	{SPECIES_LUGIA, 210},
 	{SPECIES_PALKIA, 210},
@@ -6404,7 +6404,7 @@ static const struct SmogonTeammates sSteelixTeammates_gen8balancedhackmons[] =
 	{SPECIES_REGIGIGAS, 2500},
 	{SPECIES_HO_OH, 2497},
 	{SPECIES_XERNEAS, 2497},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 2497},
+	{SPECIES_ZAMAZENTA_CROWNED, 2497},
 	{SPECIES_KARTANA, 205},
 	{SPECIES_CHARIZARD, 204},
 	{SPECIES_INTELEON, 204},
@@ -6463,7 +6463,7 @@ static const struct SmogonTeammates sDusclopsTeammates_gen8balancedhackmons[] =
 	{SPECIES_GIRATINA, 7162},
 	{SPECIES_MELMETAL, 7162},
 	{SPECIES_STEELIX, 7162},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 2293},
+	{SPECIES_ZAMAZENTA_CROWNED, 2293},
 	{SPECIES_TAPU_FINI, 1146},
 	{SPECIES_UMBREON, 1146},
 	{SPECIES_LUNALA, 752},
@@ -6538,7 +6538,7 @@ static const struct SmogonTeammates sIncineroarTeammates_gen8balancedhackmons[] 
 	{SPECIES_EXCADRILL, 5208},
 	{SPECIES_CELESTEELA, 3917},
 	{SPECIES_REGISTEEL, 2617},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 1702},
+	{SPECIES_ZAMAZENTA_CROWNED, 1702},
 	{SPECIES_HO_OH, 396},
 	{SPECIES_DUSCLOPS, 391},
 	{SPECIES_REGIELEKI, 391},
@@ -6602,7 +6602,7 @@ static const struct SmogonItems sRegirockItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sRegirockTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_GIRATINA, 7218},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 6322},
+	{SPECIES_ZAMAZENTA_CROWNED, 6322},
 	{SPECIES_ETERNATUS, 5430},
 	{SPECIES_MEWTWO, 4889},
 	{SPECIES_ZACIAN, 4440},
@@ -6691,7 +6691,7 @@ static const struct SmogonTeammates sMarshadowTeammates_gen8balancedhackmons[] =
 	{SPECIES_MAGEARNA, 5596},
 	{SPECIES_ETERNATUS, 5557},
 	{SPECIES_SPIRITOMB, 5557},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3627},
+	{SPECIES_ZAMAZENTA_CROWNED, 3627},
 	{SPECIES_REGIGIGAS, 3090},
 	{SPECIES_REGIELEKI, 2684},
 	{SPECIES_DHELMISE, 2502},
@@ -6843,7 +6843,7 @@ static const struct SmogonTeammates sSuicuneTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_GIRATINA, 7978},
 	{SPECIES_KYUREM_BLACK, 4467},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4467},
+	{SPECIES_ZAMAZENTA_CROWNED, 4467},
 	{SPECIES_KYOGRE, 3512},
 	{SPECIES_ETERNATUS, 2994},
 	{SPECIES_MAGEARNA, 2994},
@@ -6915,7 +6915,7 @@ static const struct SmogonTeammates sSpiritombTeammates_gen8balancedhackmons[] =
 	{SPECIES_ETERNATUS, 8569},
 	{SPECIES_BLISSEY, 6829},
 	{SPECIES_MARSHADOW, 6828},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3798},
+	{SPECIES_ZAMAZENTA_CROWNED, 3798},
 	{SPECIES_DHELMISE, 3030},
 	{SPECIES_KYUREM_WHITE, 2215},
 	{SPECIES_BARRASKEWDA, 1741},
@@ -7007,7 +7007,7 @@ static const struct SmogonTeammates sGuzzlordTeammates_gen8balancedhackmons[] =
 	{SPECIES_WOBBUFFET, 345},
 	{SPECIES_KARTANA, 282},
 	{SPECIES_SHUCKLE, 282},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 282},
+	{SPECIES_ZAMAZENTA_CROWNED, 282},
 	{SPECIES_CROBAT, 149},
 	{SPECIES_ETERNATUS, 149},
 	{SPECIES_GENESECT, 149},
@@ -7058,7 +7058,7 @@ static const struct SmogonItems sDarmanitan_ZenItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sDarmanitan_ZenTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 9993},
+	{SPECIES_ZAMAZENTA_CROWNED, 9993},
 	{SPECIES_DIALGA, 5830},
 	{SPECIES_LUNALA, 5830},
 	{SPECIES_TAPU_FINI, 5830},
@@ -7126,8 +7126,8 @@ static const struct SmogonTeammates sGolisopodTeammates_gen8balancedhackmons[] =
 	{SPECIES_GUZZLORD, 484},
 	{SPECIES_YVELTAL, 484},
 	{SPECIES_ZACIAN, 484},
-	{SPECIES_DARMANITAN_ZEN_MODE, 107},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 107},
+	{SPECIES_DARMANITAN_ZEN, 107},
+	{SPECIES_ZAMAZENTA_CROWNED, 107},
 	{SPECIES_ZYGARDE_COMPLETE, 107},
 };
 
@@ -7187,7 +7187,7 @@ static const struct SmogonTeammates sKinglerTeammates_gen8balancedhackmons[] =
 	{SPECIES_GIRATINA_ORIGIN, 1513},
 	{SPECIES_CALYREX_ICE, 1054},
 	{SPECIES_URSHIFU, 1054},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 1054},
+	{SPECIES_ZAMAZENTA_CROWNED, 1054},
 	{SPECIES_ZYGARDE_COMPLETE, 761},
 };
 
@@ -7331,7 +7331,7 @@ static const struct SmogonTeammates sThundurus_TherianTeammates_gen8balancedhack
 	{SPECIES_GIRATINA, 2423},
 	{SPECIES_REGIGIGAS, 1525},
 	{SPECIES_PALKIA, 1525},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 1525},
+	{SPECIES_ZAMAZENTA_CROWNED, 1525},
 	{SPECIES_BARRASKEWDA, 898},
 	{SPECIES_FERROTHORN, 898},
 	{SPECIES_KYOGRE, 898},
@@ -7442,7 +7442,7 @@ static const struct SmogonTeammates sSolgaleoTeammates_gen8balancedhackmons[] =
 	{SPECIES_KYUREM_BLACK, 2375},
 	{SPECIES_LUNALA, 2375},
 	{SPECIES_PIKACHU, 2375},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 2294},
+	{SPECIES_ZAMAZENTA_CROWNED, 2294},
 	{SPECIES_CALYREX_ICE, 693},
 	{SPECIES_PALKIA, 693},
 	{SPECIES_GIRATINA, 661},
@@ -7578,7 +7578,7 @@ static const struct SmogonTeammates sSpectrierTeammates_gen8balancedhackmons[] =
 	{SPECIES_KARTANA, 5194},
 	{SPECIES_VOLCANION, 5194},
 	{SPECIES_GIRATINA, 3744},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 2974},
+	{SPECIES_ZAMAZENTA_CROWNED, 2974},
 	{SPECIES_REGIGIGAS, 1921},
 	{SPECIES_HO_OH, 1920},
 	{SPECIES_ZACIAN, 1920},
@@ -7671,7 +7671,7 @@ static const struct SmogonTeammates sXurkitreeTeammates_gen8balancedhackmons[] =
 	{SPECIES_CALYREX_ICE, 718},
 	{SPECIES_ZYGARDE_COMPLETE, 703},
 	{SPECIES_PALKIA, 661},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 540},
+	{SPECIES_ZAMAZENTA_CROWNED, 540},
 	{SPECIES_CHANSEY, 538},
 	{SPECIES_DUSCLOPS, 538},
 	{SPECIES_RAYQUAZA, 327},
@@ -7783,7 +7783,7 @@ static const struct SmogonTeammates sGenesectTeammates_gen8balancedhackmons[] =
 	{SPECIES_ZYGARDE_COMPLETE, 3816},
 	{SPECIES_NECROZMA_DAWN_WINGS, 3541},
 	{SPECIES_NECROZMA_DUSK_MANE, 3541},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3541},
+	{SPECIES_ZAMAZENTA_CROWNED, 3541},
 	{SPECIES_BARRASKEWDA, 3350},
 	{SPECIES_BLACEPHALON, 3350},
 	{SPECIES_URSHIFU, 3350},
@@ -7860,7 +7860,7 @@ static const struct SmogonItems sWeavileItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sWeavileTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 8162},
+	{SPECIES_ZAMAZENTA_CROWNED, 8162},
 	{SPECIES_XERNEAS, 6192},
 	{SPECIES_ZYGARDE_COMPLETE, 5781},
 	{SPECIES_HO_OH, 5776},
@@ -7950,7 +7950,7 @@ static const struct SmogonTeammates sPikachuTeammates_gen8balancedhackmons[] =
 	{SPECIES_BLISSEY, 1115},
 	{SPECIES_CHANSEY, 1115},
 	{SPECIES_GIRATINA, 1115},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 1115},
+	{SPECIES_ZAMAZENTA_CROWNED, 1115},
 };
 
 static const struct SmogonAbilities sPikachuAbilities_gen8balancedhackmons[] =
@@ -8047,7 +8047,7 @@ static const struct SmogonTeammates sGarchompTeammates_gen8balancedhackmons[] =
 	{SPECIES_CHANSEY, 3206},
 	{SPECIES_GIRATINA_ORIGIN, 3206},
 	{SPECIES_ZACIAN, 3206},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3206},
+	{SPECIES_ZAMAZENTA_CROWNED, 3206},
 	{SPECIES_MEWTWO, 1938},
 	{SPECIES_PORYGON2, 1938},
 	{SPECIES_RAYQUAZA, 1938},
@@ -8105,7 +8105,7 @@ static const struct SmogonTeammates sArcheopsTeammates_gen8balancedhackmons[] =
 	{SPECIES_CHANSEY, 7641},
 	{SPECIES_URSHIFU, 7641},
 	{SPECIES_XERNEAS, 7641},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 7641},
+	{SPECIES_ZAMAZENTA_CROWNED, 7641},
 	{SPECIES_BLACEPHALON, 1165},
 	{SPECIES_LUNALA, 1072},
 	{SPECIES_KYOGRE, 1058},
@@ -8291,7 +8291,7 @@ static const struct SmogonTeammates sObstagoonTeammates_gen8balancedhackmons[] =
 	{SPECIES_GIRATINA, 612},
 	{SPECIES_RAYQUAZA, 612},
 	{SPECIES_XERNEAS, 612},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 612},
+	{SPECIES_ZAMAZENTA_CROWNED, 612},
 };
 
 static const struct SmogonAbilities sObstagoonAbilities_gen8balancedhackmons[] =
@@ -8345,7 +8345,7 @@ static const struct SmogonTeammates sSwampertTeammates_gen8balancedhackmons[] =
 	{SPECIES_REGIGIGAS, 700},
 	{SPECIES_BLACEPHALON, 694},
 	{SPECIES_XERNEAS, 694},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 694},
+	{SPECIES_ZAMAZENTA_CROWNED, 694},
 };
 
 static const struct SmogonAbilities sSwampertAbilities_gen8balancedhackmons[] =
@@ -8385,7 +8385,7 @@ static const struct SmogonTeammates sRotom_HeatTeammates_gen8balancedhackmons[] 
 	{SPECIES_LUNALA, 9916},
 	{SPECIES_REGIGIGAS, 9916},
 	{SPECIES_XERNEAS, 9916},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 9916},
+	{SPECIES_ZAMAZENTA_CROWNED, 9916},
 	{SPECIES_BARRASKEWDA, 84},
 	{SPECIES_XURKITREE, 84},
 	{SPECIES_ZACIAN, 84},
@@ -8452,7 +8452,7 @@ static const struct SmogonTeammates sZarudeTeammates_gen8balancedhackmons[] =
 	{SPECIES_ETERNATUS, 265},
 	{SPECIES_MAGEARNA, 265},
 	{SPECIES_REGIGIGAS, 265},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 265},
+	{SPECIES_ZAMAZENTA_CROWNED, 265},
 };
 
 static const struct SmogonAbilities sZarudeAbilities_gen8balancedhackmons[] =
@@ -8546,7 +8546,7 @@ static const struct SmogonTeammates sTyranitarTeammates_gen8balancedhackmons[] =
 	{SPECIES_ZACIAN, 1658},
 	{SPECIES_ZYGARDE_COMPLETE, 1535},
 	{SPECIES_ZAPDOS, 1123},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 1077},
+	{SPECIES_ZAMAZENTA_CROWNED, 1077},
 	{SPECIES_CELESTEELA, 615},
 	{SPECIES_PHEROMOSA, 615},
 	{SPECIES_REGIELEKI, 615},
@@ -8690,7 +8690,7 @@ static const struct SmogonTeammates sSnorlaxTeammates_gen8balancedhackmons[] =
 	{SPECIES_LAPRAS, 4323},
 	{SPECIES_PIKACHU, 4323},
 	{SPECIES_ETERNATUS, 2483},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 2475},
+	{SPECIES_ZAMAZENTA_CROWNED, 2475},
 	{SPECIES_YVELTAL, 2169},
 	{SPECIES_DRAMPA, 1575},
 	{SPECIES_HELIOLISK, 1575},
@@ -8776,7 +8776,7 @@ static const struct SmogonTeammates sPorygon_ZTeammates_gen8balancedhackmons[] =
 	{SPECIES_CHANSEY, 1855},
 	{SPECIES_GIRATINA, 1855},
 	{SPECIES_MAGEARNA, 1855},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 1855},
+	{SPECIES_ZAMAZENTA_CROWNED, 1855},
 	{SPECIES_DRAMPA, 1669},
 	{SPECIES_HELIOLISK, 1669},
 	{SPECIES_SILVALLY, 1669},
@@ -8899,7 +8899,7 @@ static const struct SmogonTeammates sPorygon2Teammates_gen8balancedhackmons[] =
 	{SPECIES_CHANSEY, 379},
 	{SPECIES_SHUCKLE, 379},
 	{SPECIES_BLISSEY, 379},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 379},
+	{SPECIES_ZAMAZENTA_CROWNED, 379},
 };
 
 static const struct SmogonAbilities sPorygon2Abilities_gen8balancedhackmons[] =
@@ -8987,7 +8987,7 @@ static const struct SmogonItems sZapdosItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sZapdosTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 6102},
+	{SPECIES_ZAMAZENTA_CROWNED, 6102},
 	{SPECIES_NECROZMA_DUSK_MANE, 4537},
 	{SPECIES_GIRATINA, 3570},
 	{SPECIES_REGIGIGAS, 3394},
@@ -9595,7 +9595,7 @@ static const struct SmogonTeammates sCorsola_GalarTeammates_gen8balancedhackmons
 	{SPECIES_BLISSEY, 10000},
 	{SPECIES_DRAGAPULT, 10000},
 	{SPECIES_WEAVILE, 10000},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 10000},
+	{SPECIES_ZAMAZENTA_CROWNED, 10000},
 };
 
 static const struct SmogonAbilities sCorsola_GalarAbilities_gen8balancedhackmons[] =
@@ -9670,7 +9670,7 @@ static const struct SmogonTeammates sAbsolTeammates_gen8balancedhackmons[] =
 	{SPECIES_CELESTEELA, 10000},
 	{SPECIES_CHANSEY, 10000},
 	{SPECIES_TAPU_FINI, 10000},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 10000},
+	{SPECIES_ZAMAZENTA_CROWNED, 10000},
 	{SPECIES_ZYGARDE_COMPLETE, 10000},
 };
 
@@ -9816,7 +9816,7 @@ static const struct SmogonTeammates sMimikyuTeammates_gen8balancedhackmons[] =
 	{SPECIES_DRAGAPULT, 10000},
 	{SPECIES_ETERNATUS, 10000},
 	{SPECIES_MAGEARNA, 10000},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 10000},
+	{SPECIES_ZAMAZENTA_CROWNED, 10000},
 };
 
 static const struct SmogonAbilities sMimikyuAbilities_gen8balancedhackmons[] =
@@ -9920,7 +9920,7 @@ static const struct SmogonTeammates sGengarTeammates_gen8balancedhackmons[] =
 	{SPECIES_GIRATINA, 4746},
 	{SPECIES_REGISTEEL, 4746},
 	{SPECIES_REGIELEKI, 3124},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 2900},
+	{SPECIES_ZAMAZENTA_CROWNED, 2900},
 	{SPECIES_KYUREM_WHITE, 2886},
 	{SPECIES_UMBREON, 2886},
 	{SPECIES_ZYGARDE_COMPLETE, 2886},
@@ -10014,7 +10014,7 @@ static const struct SmogonTeammates sLandorus_TherianTeammates_gen8balancedhackm
 	{SPECIES_NECROZMA_DUSK_MANE, 3244},
 	{SPECIES_CHANSEY, 1362},
 	{SPECIES_GIRATINA, 1291},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 1236},
+	{SPECIES_ZAMAZENTA_CROWNED, 1236},
 	{SPECIES_REGISTEEL, 1174},
 	{SPECIES_YVELTAL, 1174},
 	{SPECIES_ZACIAN, 237},
@@ -10528,7 +10528,7 @@ static const struct SmogonItems sTogekissItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sTogekissTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_ETERNATUS, 8559},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 8559},
+	{SPECIES_ZAMAZENTA_CROWNED, 8559},
 	{SPECIES_MELMETAL, 7693},
 	{SPECIES_REGISTEEL, 7693},
 	{SPECIES_SNORLAX, 7693},
@@ -10577,7 +10577,7 @@ static const struct SmogonTeammates sDugtrio_AlolaTeammates_gen8balancedhackmons
 	{SPECIES_LUGIA, 10000},
 	{SPECIES_REGIGIGAS, 10000},
 	{SPECIES_XERNEAS, 10000},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 10000},
+	{SPECIES_ZAMAZENTA_CROWNED, 10000},
 };
 
 static const struct SmogonAbilities sDugtrio_AlolaAbilities_gen8balancedhackmons[] =
@@ -10613,7 +10613,7 @@ static const struct SmogonTeammates sDoubladeTeammates_gen8balancedhackmons[] =
 	{SPECIES_GROUDON, 8406},
 	{SPECIES_MAGEARNA, 8406},
 	{SPECIES_REGIGIGAS, 8406},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 8406},
+	{SPECIES_ZAMAZENTA_CROWNED, 8406},
 	{SPECIES_ZYGARDE_COMPLETE, 8406},
 	{SPECIES_KARTANA, 1594},
 	{SPECIES_SPIRITOMB, 1594},
@@ -10987,7 +10987,7 @@ static const struct SmogonItems sAccelgorItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sAccelgorTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 10000},
+	{SPECIES_ZAMAZENTA_CROWNED, 10000},
 	{SPECIES_KYUREM_WHITE, 5303},
 	{SPECIES_RAYQUAZA, 5303},
 	{SPECIES_REGIELEKI, 5303},
@@ -11181,7 +11181,7 @@ static const struct SmogonTeammates sAurorusTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_BLISSEY, 6570},
 	{SPECIES_SHUCKLE, 6570},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 6570},
+	{SPECIES_ZAMAZENTA_CROWNED, 6570},
 	{SPECIES_KYUREM_WHITE, 3840},
 	{SPECIES_LUGIA, 3840},
 	{SPECIES_KYUREM_BLACK, 2730},
@@ -11476,7 +11476,7 @@ static const struct SmogonTeammates sBronzongTeammates_gen8balancedhackmons[] =
 	{SPECIES_KYOGRE, 10000},
 	{SPECIES_KYUREM_WHITE, 10000},
 	{SPECIES_REGIELEKI, 10000},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 10000},
+	{SPECIES_ZAMAZENTA_CROWNED, 10000},
 };
 
 static const struct SmogonAbilities sBronzongAbilities_gen8balancedhackmons[] =
@@ -11690,7 +11690,7 @@ static const struct SmogonTeammates sKeldeoTeammates_gen8balancedhackmons[] =
 	{SPECIES_YVELTAL, 9845},
 	{SPECIES_MEWTWO, 9796},
 	{SPECIES_PALKIA, 9796},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 9796},
+	{SPECIES_ZAMAZENTA_CROWNED, 9796},
 	{SPECIES_GIRATINA, 204},
 	{SPECIES_RAYQUAZA, 204},
 	{SPECIES_ZACIAN, 204},
@@ -11885,7 +11885,7 @@ static const struct SmogonTeammates sSharpedoTeammates_gen8balancedhackmons[] =
 	{SPECIES_DUSCLOPS, 6470},
 	{SPECIES_INCINEROAR, 6470},
 	{SPECIES_ZACIAN, 6470},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 6470},
+	{SPECIES_ZAMAZENTA_CROWNED, 6470},
 	{SPECIES_KARTANA, 3530},
 	{SPECIES_DRAGAPULT, 3529},
 	{SPECIES_NECROZMA_DUSK_MANE, 3529},
@@ -12020,7 +12020,7 @@ static const struct SmogonTeammates sWishiwashiTeammates_gen8balancedhackmons[] 
 	{SPECIES_SHUCKLE, 4203},
 	{SPECIES_REGIGIGAS, 4035},
 	{SPECIES_XERNEAS, 4035},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 4035},
+	{SPECIES_ZAMAZENTA_CROWNED, 4035},
 	{SPECIES_ARCHEOPS, 169},
 	{SPECIES_PHEROMOSA, 169},
 	{SPECIES_STAKATAKA, 169},
@@ -12066,7 +12066,7 @@ static const struct SmogonTeammates sLycanroc_DuskTeammates_gen8balancedhackmons
 	{SPECIES_LANDORUS_THERIAN, 374},
 	{SPECIES_TYPE_NULL, 374},
 	{SPECIES_ZACIAN, 374},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 374},
+	{SPECIES_ZAMAZENTA_CROWNED, 374},
 };
 
 static const struct SmogonAbilities sLycanroc_DuskAbilities_gen8balancedhackmons[] =
@@ -12387,7 +12387,7 @@ static const struct SmogonTeammates sBudewTeammates_gen8balancedhackmons[] =
 	{SPECIES_ETERNATUS, 10000},
 	{SPECIES_REGIGIGAS, 10000},
 	{SPECIES_ZACIAN, 10000},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 10000},
+	{SPECIES_ZAMAZENTA_CROWNED, 10000},
 };
 
 static const struct SmogonAbilities sBudewAbilities_gen8balancedhackmons[] =
@@ -12539,7 +12539,7 @@ static const struct SmogonTeammates sGrimmsnarlTeammates_gen8balancedhackmons[] 
 	{SPECIES_INCINEROAR, 10000},
 	{SPECIES_MARSHADOW, 10000},
 	{SPECIES_REGIELEKI, 10000},
-	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 10000},
+	{SPECIES_ZAMAZENTA_CROWNED, 10000},
 };
 
 static const struct SmogonAbilities sGrimmsnarlAbilities_gen8balancedhackmons[] =
@@ -12583,7 +12583,7 @@ const struct Smogon gSmogon_gen8balancedhackmons[] =
 {
     [SMOGON_ZAMAZENTA_CROWNED_SHIELD_INDEX_GEN8BALANCEDHACKMONS] =
     {
-        .species = SPECIES_ZAMAZENTA_CROWNED_SHIELD,
+        .species = SPECIES_ZAMAZENTA_CROWNED,
         .usage = 5187,
         .usageLower = 0,
         .usageUpper = 5187,
@@ -13917,7 +13917,7 @@ const struct Smogon gSmogon_gen8balancedhackmons[] =
     },
     [SMOGON_DARMANITAN_ZEN_MODE_INDEX_GEN8BALANCEDHACKMONS] =
     {
-        .species = SPECIES_DARMANITAN_ZEN_MODE,
+        .species = SPECIES_DARMANITAN_ZEN,
         .usage = 106,
         .usageLower = 57191,
         .usageUpper = 57297,
