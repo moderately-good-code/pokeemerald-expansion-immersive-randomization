@@ -1,5 +1,6 @@
 #include "global.h"
 #include "randomization_utilities.h"
+#include "battle.h"
 #include "battle_util.h"
 #include "pokemon.h"
 #include "event_data.h"
