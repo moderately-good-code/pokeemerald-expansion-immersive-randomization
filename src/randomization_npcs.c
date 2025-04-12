@@ -371,6 +371,7 @@ static const struct SmogonReference* GetRandomizedRivalTrainerMonSpecies(u8 leve
     u16 speciesId;
     const struct SmogonReference* candidate;
 
+    bestCandidateIndex = 0;
     currentCandidateNumber = 0;
     bestCoverageScore = 0;
     for (i=0; i<NUM_TRAINER_RANDOMIZATION_TRIES; i++)
@@ -528,7 +529,7 @@ static void SetRandomizedMoves(struct Pokemon* originalMon, u16 smogonId,
 static void CreateMonFromSmogonStats(struct Pokemon* originalMon, u16 smogonId,
         const struct Smogon* gSmogon, union CompactRandomState* seed)
 {
-    u8 i, j;
+    u8 j;
     u16 randomized;
 
     // create mon
