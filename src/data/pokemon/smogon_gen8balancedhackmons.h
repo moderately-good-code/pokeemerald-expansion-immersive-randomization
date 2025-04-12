@@ -1361,7 +1361,7 @@ static const struct SmogonTeammates sZamazenta_CrownedTeammates_gen8balancedhack
 	{SPECIES_NECROZMA_DAWN_WINGS, 909},
 	{SPECIES_ZACIAN, 763},
 	{SPECIES_MELMETAL, 726},
-	{SPECIES_CALYREX_ICE_RIDER, 707},
+	{SPECIES_CALYREX_ICE, 707},
 	{SPECIES_DRAGAPULT, 684},
 	{SPECIES_LUNALA, 631},
 	{SPECIES_UMBREON, 578},
@@ -1491,7 +1491,7 @@ static const struct SmogonTeammates sXerneasTeammates_gen8balancedhackmons[] =
 	{SPECIES_KYOGRE, 649},
 	{SPECIES_RAYQUAZA, 635},
 	{SPECIES_BLISSEY, 578},
-	{SPECIES_CALYREX_ICE_RIDER, 495},
+	{SPECIES_CALYREX_ICE, 495},
 	{SPECIES_CELESTEELA, 451},
 	{SPECIES_TAPU_FINI, 449},
 	{SPECIES_REGISTEEL, 427},
@@ -1596,7 +1596,7 @@ static const struct SmogonTeammates sRegigigasTeammates_gen8balancedhackmons[] =
 	{SPECIES_URSHIFU, 480},
 	{SPECIES_RAYQUAZA, 479},
 	{SPECIES_REGISTEEL, 448},
-	{SPECIES_CALYREX_ICE_RIDER, 355},
+	{SPECIES_CALYREX_ICE, 355},
 	{SPECIES_ZEKROM, 348},
 	{SPECIES_SHUCKLE, 322},
 };
@@ -1715,7 +1715,7 @@ static const struct SmogonTeammates sGiratinaTeammates_gen8balancedhackmons[] =
 	{SPECIES_GROUDON, 1336},
 	{SPECIES_MAGEARNA, 1306},
 	{SPECIES_MELMETAL, 1159},
-	{SPECIES_CALYREX_ICE_RIDER, 1057},
+	{SPECIES_CALYREX_ICE, 1057},
 	{SPECIES_HEATRAN, 1002},
 	{SPECIES_PALKIA, 986},
 	{SPECIES_RESHIRAM, 975},
@@ -1839,7 +1839,7 @@ static const struct SmogonTeammates sHo_OhTeammates_gen8balancedhackmons[] =
 	{SPECIES_BARRASKEWDA, 566},
 	{SPECIES_ZACIAN, 509},
 	{SPECIES_TOXAPEX, 471},
-	{SPECIES_CALYREX_ICE_RIDER, 409},
+	{SPECIES_CALYREX_ICE, 409},
 	{SPECIES_DIALGA, 408},
 	{SPECIES_RAYQUAZA, 404},
 	{SPECIES_REGISTEEL, 394},
@@ -1943,7 +1943,7 @@ static const struct SmogonTeammates sZygarde_CompleteTeammates_gen8balancedhackm
 	{SPECIES_YVELTAL, 1962},
 	{SPECIES_MAGEARNA, 1904},
 	{SPECIES_MELMETAL, 1754},
-	{SPECIES_CALYREX_ICE_RIDER, 1295},
+	{SPECIES_CALYREX_ICE, 1295},
 	{SPECIES_NECROZMA_DAWN_WINGS, 1053},
 	{SPECIES_BLISSEY, 1026},
 	{SPECIES_RESHIRAM, 942},
@@ -2078,7 +2078,7 @@ static const struct SmogonTeammates sChanseyTeammates_gen8balancedhackmons[] =
 	{SPECIES_GROUDON, 366},
 	{SPECIES_ZEKROM, 333},
 	{SPECIES_LUNALA, 326},
-	{SPECIES_CALYREX_ICE_RIDER, 318},
+	{SPECIES_CALYREX_ICE, 318},
 	{SPECIES_REGIELEKI, 310},
 	{SPECIES_MEWTWO, 305},
 };
@@ -2168,7 +2168,7 @@ static const struct SmogonTeammates sEternatusTeammates_gen8balancedhackmons[] =
 	{SPECIES_GROUDON, 1171},
 	{SPECIES_DRAGAPULT, 982},
 	{SPECIES_LUNALA, 762},
-	{SPECIES_CALYREX_ICE_RIDER, 701},
+	{SPECIES_CALYREX_ICE, 701},
 	{SPECIES_ZACIAN, 695},
 	{SPECIES_URSHIFU, 688},
 	{SPECIES_BARRASKEWDA, 642},
@@ -2301,7 +2301,7 @@ static const struct SmogonTeammates sYveltalTeammates_gen8balancedhackmons[] =
 	{SPECIES_TAPU_FINI, 780},
 	{SPECIES_BLISSEY, 689},
 	{SPECIES_ZEKROM, 683},
-	{SPECIES_CALYREX_ICE_RIDER, 652},
+	{SPECIES_CALYREX_ICE, 652},
 	{SPECIES_SHUCKLE, 590},
 	{SPECIES_GROUDON, 589},
 	{SPECIES_TOXAPEX, 576},
@@ -2628,7 +2628,7 @@ static const struct SmogonTeammates sMagearnaTeammates_gen8balancedhackmons[] =
 	{SPECIES_HO_OH, 2313},
 	{SPECIES_ETERNATUS, 2105},
 	{SPECIES_KYUREM_BLACK, 2001},
-	{SPECIES_CALYREX_ICE_RIDER, 1719},
+	{SPECIES_CALYREX_ICE, 1719},
 	{SPECIES_HEATRAN, 1719},
 	{SPECIES_RESHIRAM, 1719},
 	{SPECIES_PALKIA, 1391},
@@ -2951,10 +2951,10 @@ static const struct SmogonTeammates sPalkiaTeammates_gen8balancedhackmons[] =
 	{SPECIES_REGISTEEL, 734},
 	{SPECIES_ROSERADE, 663},
 	{SPECIES_GIRATINA_ORIGIN, 606},
-	{SPECIES_URSHIFU_RAPID_STRIKE_STYLE, 496},
+	{SPECIES_URSHIFU_RAPID_STRIKE, 496},
 	{SPECIES_ETERNATUS, 474},
 	{SPECIES_GROUDON, 410},
-	{SPECIES_CALYREX_ICE_RIDER, 365},
+	{SPECIES_CALYREX_ICE, 365},
 	{SPECIES_LUGIA, 336},
 	{SPECIES_TOXAPEX, 295},
 	{SPECIES_SWAMPERT, 295},
@@ -3051,7 +3051,7 @@ static const struct SmogonTeammates sDragapultTeammates_gen8balancedhackmons[] =
 	{SPECIES_REGISTEEL, 1744},
 	{SPECIES_ZYGARDE_COMPLETE, 1323},
 	{SPECIES_GIRATINA, 1202},
-	{SPECIES_CALYREX_ICE_RIDER, 1138},
+	{SPECIES_CALYREX_ICE, 1138},
 	{SPECIES_KYUREM_BLACK, 1075},
 	{SPECIES_PALKIA, 942},
 	{SPECIES_NECROZMA_DUSK_MANE, 925},
@@ -3158,7 +3158,7 @@ static const struct SmogonTeammates sGroudonTeammates_gen8balancedhackmons[] =
 	{SPECIES_YVELTAL, 1072},
 	{SPECIES_TAPU_FINI, 1068},
 	{SPECIES_CHANSEY, 921},
-	{SPECIES_CALYREX_ICE_RIDER, 911},
+	{SPECIES_CALYREX_ICE, 911},
 	{SPECIES_LUNALA, 878},
 	{SPECIES_KYUREM_WHITE, 785},
 	{SPECIES_NECROZMA_DUSK_MANE, 757},
@@ -3269,7 +3269,7 @@ static const struct SmogonTeammates sBarraskewdaTeammates_gen8balancedhackmons[]
 	{SPECIES_NECROZMA_DAWN_WINGS, 589},
 	{SPECIES_MEWTWO, 424},
 	{SPECIES_DRAGAPULT, 341},
-	{SPECIES_CALYREX_ICE_RIDER, 317},
+	{SPECIES_CALYREX_ICE, 317},
 	{SPECIES_LUGIA, 300},
 	{SPECIES_GROUDON, 265},
 };
@@ -3370,8 +3370,8 @@ static const struct SmogonTeammates sDialgaTeammates_gen8balancedhackmons[] =
 	{SPECIES_MEWTWO, 655},
 	{SPECIES_VOLCANION, 638},
 	{SPECIES_ZAMAZENTA, 534},
-	{SPECIES_CALYREX_ICE_RIDER, 474},
-	{SPECIES_URSHIFU_RAPID_STRIKE_STYLE, 467},
+	{SPECIES_CALYREX_ICE, 474},
+	{SPECIES_URSHIFU_RAPID_STRIKE, 467},
 	{SPECIES_SHUCKLE, 392},
 	{SPECIES_RAYQUAZA, 342},
 	{SPECIES_ZACIAN, 255},
@@ -3482,7 +3482,7 @@ static const struct SmogonTeammates sCalyrexIceRiderTeammates_gen8balancedhackmo
 	{SPECIES_LUNALA, 478},
 	{SPECIES_ROTOM_HEAT, 478},
 	{SPECIES_DIALGA, 477},
-	{SPECIES_MAROWAK_ALOLAN, 477},
+	{SPECIES_MAROWAK_ALOLA, 477},
 	{SPECIES_TAPU_FINI, 399},
 	{SPECIES_CRESSELIA, 391},
 	{SPECIES_BARRASKEWDA, 333},
@@ -3588,12 +3588,12 @@ static const struct SmogonTeammates sKartanaTeammates_gen8balancedhackmons[] =
 	{SPECIES_TYPE_NULL, 747},
 	{SPECIES_VOLCANION, 741},
 	{SPECIES_BARRASKEWDA, 644},
-	{SPECIES_CALYREX_ICE_RIDER, 606},
+	{SPECIES_CALYREX_ICE, 606},
 	{SPECIES_REGIELEKI, 529},
 	{SPECIES_NECROZMA_DUSK_MANE, 527},
 	{SPECIES_NECROZMA_DAWN_WINGS, 519},
 	{SPECIES_KYUREM_BLACK, 518},
-	{SPECIES_MAROWAK_ALOLAN, 496},
+	{SPECIES_MAROWAK_ALOLA, 496},
 	{SPECIES_AMOONGUSS, 492},
 	{SPECIES_CRESSELIA, 492},
 	{SPECIES_SPECTRIER, 492},
@@ -3704,7 +3704,7 @@ static const struct SmogonTeammates sKyurem_WhiteTeammates_gen8balancedhackmons[
 	{SPECIES_MELMETAL, 1062},
 	{SPECIES_DRAGAPULT, 1060},
 	{SPECIES_GUZZLORD, 980},
-	{SPECIES_CALYREX_ICE_RIDER, 623},
+	{SPECIES_CALYREX_ICE, 623},
 	{SPECIES_ZACIAN, 607},
 	{SPECIES_MAGEARNA, 604},
 	{SPECIES_XURKITREE, 590},
@@ -3814,7 +3814,7 @@ static const struct SmogonTeammates sLunalaTeammates_gen8balancedhackmons[] =
 	{SPECIES_REGISTEEL, 591},
 	{SPECIES_OBSTAGOON, 591},
 	{SPECIES_THUNDURUS_THERIAN, 591},
-	{SPECIES_CALYREX_ICE_RIDER, 589},
+	{SPECIES_CALYREX_ICE, 589},
 	{SPECIES_ROTOM_HEAT, 589},
 	{SPECIES_GIRATINA, 428},
 	{SPECIES_AERODACTYL, 362},
@@ -3909,12 +3909,12 @@ static const struct SmogonTeammates sZacianTeammates_gen8balancedhackmons[] =
 	{SPECIES_KARTANA, 1245},
 	{SPECIES_ZYGARDE_COMPLETE, 1215},
 	{SPECIES_TOXAPEX, 1132},
-	{SPECIES_CALYREX_ICE_RIDER, 1043},
+	{SPECIES_CALYREX_ICE, 1043},
 	{SPECIES_TAPU_FINI, 882},
 	{SPECIES_REGIROCK, 846},
 	{SPECIES_BLISSEY, 715},
 	{SPECIES_KYUREM_WHITE, 605},
-	{SPECIES_MAROWAK_ALOLAN, 562},
+	{SPECIES_MAROWAK_ALOLA, 562},
 	{SPECIES_TYPE_NULL, 553},
 	{SPECIES_MELMETAL, 551},
 	{SPECIES_DRAGAPULT, 548},
@@ -4021,7 +4021,7 @@ static const struct SmogonTeammates sNecrozma_DuskManeTeammates_gen8balancedhack
 	{SPECIES_DRAGAPULT, 1437},
 	{SPECIES_YVELTAL, 1433},
 	{SPECIES_GROUDON, 1150},
-	{SPECIES_CALYREX_ICE_RIDER, 925},
+	{SPECIES_CALYREX_ICE, 925},
 	{SPECIES_TOXAPEX, 921},
 	{SPECIES_ZYGARDE_COMPLETE, 859},
 	{SPECIES_CHANSEY, 806},
@@ -4342,7 +4342,7 @@ static const struct SmogonTeammates sNecrozma_DawnWingsTeammates_gen8balancedhac
 	{SPECIES_GENESECT, 406},
 	{SPECIES_MEWTWO, 255},
 	{SPECIES_SHUCKLE, 252},
-	{SPECIES_CALYREX_ICE_RIDER, 121},
+	{SPECIES_CALYREX_ICE, 121},
 };
 
 static const struct SmogonAbilities sNecrozma_DawnWingsAbilities_gen8balancedhackmons[] =
@@ -4428,7 +4428,7 @@ static const struct SmogonTeammates sKyogreTeammates_gen8balancedhackmons[] =
 	{SPECIES_CHANSEY, 1877},
 	{SPECIES_YVELTAL, 1277},
 	{SPECIES_ETERNATUS, 1190},
-	{SPECIES_URSHIFU_RAPID_STRIKE_STYLE, 1094},
+	{SPECIES_URSHIFU_RAPID_STRIKE, 1094},
 	{SPECIES_MELMETAL, 1094},
 	{SPECIES_ZYGARDE_COMPLETE, 1023},
 	{SPECIES_REGISTEEL, 948},
@@ -4443,7 +4443,7 @@ static const struct SmogonTeammates sKyogreTeammates_gen8balancedhackmons[] =
 	{SPECIES_TOXAPEX, 669},
 	{SPECIES_SWAMPERT, 669},
 	{SPECIES_TAPU_FINI, 669},
-	{SPECIES_CALYREX_ICE_RIDER, 513},
+	{SPECIES_CALYREX_ICE, 513},
 	{SPECIES_FERROTHORN, 383},
 	{SPECIES_RAYQUAZA, 379},
 };
@@ -4521,7 +4521,7 @@ static const struct SmogonItems sHeatranItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sHeatranTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_GIRATINA, 7345},
-	{SPECIES_CALYREX_ICE_RIDER, 5724},
+	{SPECIES_CALYREX_ICE, 5724},
 	{SPECIES_ZYGARDE_COMPLETE, 5724},
 	{SPECIES_RESHIRAM, 5014},
 	{SPECIES_MAGEARNA, 4909},
@@ -4532,7 +4532,7 @@ static const struct SmogonTeammates sHeatranTeammates_gen8balancedhackmons[] =
 	{SPECIES_GROUDON, 1227},
 	{SPECIES_YVELTAL, 1227},
 	{SPECIES_ZEKROM, 1068},
-	{SPECIES_MAROWAK_ALOLAN, 921},
+	{SPECIES_MAROWAK_ALOLA, 921},
 	{SPECIES_KYOGRE, 818},
 	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 818},
 	{SPECIES_DRAGAPULT, 793},
@@ -4544,7 +4544,7 @@ static const struct SmogonTeammates sHeatranTeammates_gen8balancedhackmons[] =
 	{SPECIES_MEWTWO, 401},
 	{SPECIES_PORYGON_Z, 401},
 	{SPECIES_SKARMORY, 401},
-	{SPECIES_URSHIFU_RAPID_STRIKE_STYLE, 401},
+	{SPECIES_URSHIFU_RAPID_STRIKE, 401},
 	{SPECIES_DRACOVISH, 250},
 	{SPECIES_NECROZMA_DUSK_MANE, 250},
 	{SPECIES_TAPU_KOKO, 250},
@@ -4642,7 +4642,7 @@ static const struct SmogonTeammates sToxapexTeammates_gen8balancedhackmons[] =
 	{SPECIES_TYPE_NULL, 434},
 	{SPECIES_LUNALA, 434},
 	{SPECIES_REGISTEEL, 427},
-	{SPECIES_CALYREX_ICE_RIDER, 338},
+	{SPECIES_CALYREX_ICE, 338},
 };
 
 static const struct SmogonAbilities sToxapexAbilities_gen8balancedhackmons[] =
@@ -4826,7 +4826,7 @@ static const struct SmogonTeammates sReshiramTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_GIRATINA, 8245},
 	{SPECIES_ZYGARDE_COMPLETE, 6696},
-	{SPECIES_CALYREX_ICE_RIDER, 5887},
+	{SPECIES_CALYREX_ICE, 5887},
 	{SPECIES_HEATRAN, 5780},
 	{SPECIES_MAGEARNA, 5658},
 	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3721},
@@ -4845,10 +4845,10 @@ static const struct SmogonTeammates sReshiramTeammates_gen8balancedhackmons[] =
 	{SPECIES_DRAGAPULT, 189},
 	{SPECIES_ZAPDOS, 189},
 	{SPECIES_INCINEROAR, 122},
-	{SPECIES_MAROWAK_ALOLAN, 122},
+	{SPECIES_MAROWAK_ALOLA, 122},
 	{SPECIES_PELIPPER, 98},
 	{SPECIES_AERODACTYL, 95},
-	{SPECIES_SANDSLASH_ALOLAN, 95},
+	{SPECIES_SANDSLASH_ALOLA, 95},
 };
 
 static const struct SmogonAbilities sReshiramAbilities_gen8balancedhackmons[] =
@@ -5047,7 +5047,7 @@ static const struct SmogonTeammates sLugiaTeammates_gen8balancedhackmons[] =
 	{SPECIES_DARMANITAN, 396},
 	{SPECIES_CHANSEY, 379},
 	{SPECIES_NECROZMA_DUSK_MANE, 350},
-	{SPECIES_CALYREX_ICE_RIDER, 340},
+	{SPECIES_CALYREX_ICE, 340},
 	{SPECIES_REGIELEKI, 333},
 	{SPECIES_AEGISLASH, 291},
 };
@@ -5395,7 +5395,7 @@ static const struct SmogonTeammates sTypeNullTeammates_gen8balancedhackmons[] =
 	{SPECIES_XERNEAS, 4593},
 	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 3884},
 	{SPECIES_GIRATINA, 3290},
-	{SPECIES_CALYREX_ICE_RIDER, 3198},
+	{SPECIES_CALYREX_ICE, 3198},
 	{SPECIES_GROUDON, 3145},
 	{SPECIES_REGIGIGAS, 2963},
 	{SPECIES_ETERNATUS, 2958},
@@ -5509,7 +5509,7 @@ static const struct SmogonTeammates sRayquazaTeammates_gen8balancedhackmons[] =
 	{SPECIES_MEWTWO, 374},
 	{SPECIES_PORYGON2, 374},
 	{SPECIES_GIRATINA, 353},
-	{SPECIES_CALYREX_ICE_RIDER, 313},
+	{SPECIES_CALYREX_ICE, 313},
 	{SPECIES_CHANSEY, 310},
 	{SPECIES_RESHIRAM, 276},
 	{SPECIES_NECROZMA_DUSK_MANE, 258},
@@ -5807,7 +5807,7 @@ static const struct SmogonTeammates sUrshifuTeammates_gen8balancedhackmons[] =
 	{SPECIES_ZEKROM, 573},
 	{SPECIES_RESHIRAM, 480},
 	{SPECIES_YVELTAL, 366},
-	{SPECIES_CALYREX_ICE_RIDER, 338},
+	{SPECIES_CALYREX_ICE, 338},
 	{SPECIES_KINGLER, 338},
 	{SPECIES_MAGEARNA, 301},
 	{SPECIES_GROUDON, 284},
@@ -5816,7 +5816,7 @@ static const struct SmogonTeammates sUrshifuTeammates_gen8balancedhackmons[] =
 	{SPECIES_KYUREM_WHITE, 277},
 	{SPECIES_AERODACTYL, 142},
 	{SPECIES_PELIPPER, 142},
-	{SPECIES_SANDSLASH_ALOLAN, 142},
+	{SPECIES_SANDSLASH_ALOLA, 142},
 	{SPECIES_LUGIA, 109},
 };
 
@@ -5986,7 +5986,7 @@ static const struct SmogonTeammates sVolcanionTeammates_gen8balancedhackmons[] =
 	{SPECIES_DIALGA, 2109},
 	{SPECIES_GIRATINA_ORIGIN, 2109},
 	{SPECIES_NECROZMA_DUSK_MANE, 1978},
-	{SPECIES_CALYREX_ICE_RIDER, 1977},
+	{SPECIES_CALYREX_ICE, 1977},
 	{SPECIES_YVELTAL, 1977},
 	{SPECIES_HO_OH, 1561},
 	{SPECIES_AMOONGUSS, 1553},
@@ -6096,7 +6096,7 @@ static const struct SmogonTeammates sShuckleTeammates_gen8balancedhackmons[] =
 	{SPECIES_BARRASKEWDA, 221},
 	{SPECIES_GENGAR, 213},
 	{SPECIES_TAPU_BULU, 209},
-	{SPECIES_CALYREX_ICE_RIDER, 206},
+	{SPECIES_CALYREX_ICE, 206},
 };
 
 static const struct SmogonAbilities sShuckleAbilities_gen8balancedhackmons[] =
@@ -6199,7 +6199,7 @@ static const struct SmogonTeammates sBlacephalonTeammates_gen8balancedhackmons[]
 	{SPECIES_CHANSEY, 654},
 	{SPECIES_YVELTAL, 543},
 	{SPECIES_TOXAPEX, 537},
-	{SPECIES_CALYREX_ICE_RIDER, 537},
+	{SPECIES_CALYREX_ICE, 537},
 	{SPECIES_GUZZLORD, 537},
 	{SPECIES_BLISSEY, 527},
 	{SPECIES_MIMIKYU, 519},
@@ -6273,7 +6273,7 @@ static const struct SmogonTeammates sZamazentaTeammates_gen8balancedhackmons[] =
 	{SPECIES_REGIELEKI, 772},
 	{SPECIES_GIRATINA, 610},
 	{SPECIES_YVELTAL, 590},
-	{SPECIES_CALYREX_ICE_RIDER, 588},
+	{SPECIES_CALYREX_ICE, 588},
 	{SPECIES_ZERAORA, 588},
 	{SPECIES_LUGIA, 541},
 	{SPECIES_ZACIAN, 539},
@@ -6346,7 +6346,7 @@ static const struct SmogonTeammates sCresseliaTeammates_gen8balancedhackmons[] =
 	{SPECIES_VOLCANION, 2411},
 	{SPECIES_KYUREM_WHITE, 2052},
 	{SPECIES_GIRATINA, 2010},
-	{SPECIES_CALYREX_ICE_RIDER, 1996},
+	{SPECIES_CALYREX_ICE, 1996},
 	{SPECIES_HO_OH, 1952},
 	{SPECIES_BLISSEY, 1742},
 	{SPECIES_TAPU_FINI, 1742},
@@ -6544,7 +6544,7 @@ static const struct SmogonTeammates sIncineroarTeammates_gen8balancedhackmons[] 
 	{SPECIES_REGIELEKI, 391},
 	{SPECIES_BLACEPHALON, 342},
 	{SPECIES_HEATRAN, 342},
-	{SPECIES_MAROWAK_ALOLAN, 342},
+	{SPECIES_MAROWAK_ALOLA, 342},
 	{SPECIES_RESHIRAM, 342},
 	{SPECIES_MARSHADOW, 312},
 	{SPECIES_REGIGIGAS, 127},
@@ -6609,7 +6609,7 @@ static const struct SmogonTeammates sRegirockTeammates_gen8balancedhackmons[] =
 	{SPECIES_KYOGRE, 3227},
 	{SPECIES_KARTANA, 2851},
 	{SPECIES_SUICUNE, 2778},
-	{SPECIES_URSHIFU_RAPID_STRIKE_STYLE, 2778},
+	{SPECIES_URSHIFU_RAPID_STRIKE, 2778},
 	{SPECIES_KYUREM_BLACK, 990},
 	{SPECIES_MAGEARNA, 990},
 	{SPECIES_XERNEAS, 990},
@@ -6792,7 +6792,7 @@ static const struct SmogonTeammates sUrshifu_Rapid_StrikeTeammates_gen8balancedh
 	{SPECIES_FERROTHORN, 608},
 	{SPECIES_MELMETAL, 608},
 	{SPECIES_YVELTAL, 608},
-	{SPECIES_CALYREX_ICE_RIDER, 140},
+	{SPECIES_CALYREX_ICE, 140},
 	{SPECIES_METAGROSS, 138},
 	{SPECIES_THUNDURUS_THERIAN, 138},
 };
@@ -6849,7 +6849,7 @@ static const struct SmogonTeammates sSuicuneTeammates_gen8balancedhackmons[] =
 	{SPECIES_MAGEARNA, 2994},
 	{SPECIES_KARTANA, 2907},
 	{SPECIES_REGIROCK, 2907},
-	{SPECIES_URSHIFU_RAPID_STRIKE_STYLE, 2907},
+	{SPECIES_URSHIFU_RAPID_STRIKE, 2907},
 	{SPECIES_HO_OH, 1473},
 	{SPECIES_XERNEAS, 1473},
 	{SPECIES_BARRASKEWDA, 604},
@@ -6995,7 +6995,7 @@ static const struct SmogonTeammates sGuzzlordTeammates_gen8balancedhackmons[] =
 	{SPECIES_YVELTAL, 2010},
 	{SPECIES_XERNEAS, 1231},
 	{SPECIES_BLACEPHALON, 1132},
-	{SPECIES_CALYREX_ICE_RIDER, 1132},
+	{SPECIES_CALYREX_ICE, 1132},
 	{SPECIES_CHANSEY, 858},
 	{SPECIES_ZYGARDE_COMPLETE, 805},
 	{SPECIES_BLISSEY, 759},
@@ -7016,7 +7016,7 @@ static const struct SmogonTeammates sGuzzlordTeammates_gen8balancedhackmons[] =
 	{SPECIES_GENGAR, 109},
 	{SPECIES_SIGILYPH, 109},
 	{SPECIES_TERRAKION, 109},
-	{SPECIES_DARMANITAN_GALARIAN, 98},
+	{SPECIES_DARMANITAN_GALAR, 98},
 };
 
 static const struct SmogonAbilities sGuzzlordAbilities_gen8balancedhackmons[] =
@@ -7114,7 +7114,7 @@ static const struct SmogonTeammates sGolisopodTeammates_gen8balancedhackmons[] =
 	{SPECIES_CHANSEY, 7417},
 	{SPECIES_ETERNATUS, 7417},
 	{SPECIES_GIRATINA, 7417},
-	{SPECIES_STUNFISK_GALARIAN, 7417},
+	{SPECIES_STUNFISK_GALAR, 7417},
 	{SPECIES_BLISSEY, 5665},
 	{SPECIES_HO_OH, 2455},
 	{SPECIES_KYUREM_BLACK, 1972},
@@ -7185,7 +7185,7 @@ static const struct SmogonTeammates sKinglerTeammates_gen8balancedhackmons[] =
 	{SPECIES_TOXAPEX, 1660},
 	{SPECIES_CHANSEY, 1513},
 	{SPECIES_GIRATINA_ORIGIN, 1513},
-	{SPECIES_CALYREX_ICE_RIDER, 1054},
+	{SPECIES_CALYREX_ICE, 1054},
 	{SPECIES_URSHIFU, 1054},
 	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 1054},
 	{SPECIES_ZYGARDE_COMPLETE, 761},
@@ -7266,7 +7266,7 @@ static const struct SmogonTeammates sBuzzwoleTeammates_gen8balancedhackmons[] =
 	{SPECIES_NECROZMA_DAWN_WINGS, 171},
 	{SPECIES_UMBREON, 171},
 	{SPECIES_ARTICUNO, 61},
-	{SPECIES_CALYREX_ICE_RIDER, 61},
+	{SPECIES_CALYREX_ICE, 61},
 	{SPECIES_ZYGARDE_COMPLETE, 61},
 };
 
@@ -7337,9 +7337,9 @@ static const struct SmogonTeammates sThundurus_TherianTeammates_gen8balancedhack
 	{SPECIES_KYOGRE, 898},
 	{SPECIES_SUICUNE, 898},
 	{SPECIES_TAPU_FINI, 301},
-	{SPECIES_CALYREX_ICE_RIDER, 188},
+	{SPECIES_CALYREX_ICE, 188},
 	{SPECIES_METAGROSS, 188},
-	{SPECIES_URSHIFU_RAPID_STRIKE_STYLE, 188},
+	{SPECIES_URSHIFU_RAPID_STRIKE, 188},
 	{SPECIES_XERNEAS, 188},
 	{SPECIES_KARTANA, 112},
 	{SPECIES_CELESTEELA, 112},
@@ -7390,7 +7390,7 @@ static const struct SmogonTeammates sThundurusTeammates_gen8balancedhackmons[] =
 	{SPECIES_MELMETAL, 7026},
 	{SPECIES_KYOGRE, 5982},
 	{SPECIES_KYUREM_WHITE, 4011},
-	{SPECIES_CALYREX_ICE_RIDER, 2966},
+	{SPECIES_CALYREX_ICE, 2966},
 };
 
 static const struct SmogonAbilities sThundurusAbilities_gen8balancedhackmons[] =
@@ -7443,7 +7443,7 @@ static const struct SmogonTeammates sSolgaleoTeammates_gen8balancedhackmons[] =
 	{SPECIES_LUNALA, 2375},
 	{SPECIES_PIKACHU, 2375},
 	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 2294},
-	{SPECIES_CALYREX_ICE_RIDER, 693},
+	{SPECIES_CALYREX_ICE, 693},
 	{SPECIES_PALKIA, 693},
 	{SPECIES_GIRATINA, 661},
 };
@@ -7668,7 +7668,7 @@ static const struct SmogonTeammates sXurkitreeTeammates_gen8balancedhackmons[] =
 	{SPECIES_ETERNATUS, 1195},
 	{SPECIES_FERROTHORN, 1195},
 	{SPECIES_REGIGIGAS, 731},
-	{SPECIES_CALYREX_ICE_RIDER, 718},
+	{SPECIES_CALYREX_ICE, 718},
 	{SPECIES_ZYGARDE_COMPLETE, 703},
 	{SPECIES_PALKIA, 661},
 	{SPECIES_ZAMAZENTA_CROWNED_SHIELD, 540},
@@ -7795,7 +7795,7 @@ static const struct SmogonTeammates sGenesectTeammates_gen8balancedhackmons[] =
 	{SPECIES_XERNEAS, 927},
 	{SPECIES_SHUCKLE, 745},
 	{SPECIES_REGIGIGAS, 607},
-	{SPECIES_CALYREX_ICE_RIDER, 466},
+	{SPECIES_CALYREX_ICE, 466},
 	{SPECIES_ETERNATUS, 445},
 	{SPECIES_YVELTAL, 304},
 	{SPECIES_CROBAT, 222},
@@ -7868,7 +7868,7 @@ static const struct SmogonTeammates sWeavileTeammates_gen8balancedhackmons[] =
 	{SPECIES_DRAGAPULT, 2336},
 	{SPECIES_BARRASKEWDA, 2124},
 	{SPECIES_BLISSEY, 1970},
-	{SPECIES_CORSOLA_GALARIAN, 1970},
+	{SPECIES_CORSOLA_GALAR, 1970},
 	{SPECIES_REGIELEKI, 558},
 	{SPECIES_DUSCLOPS, 558},
 	{SPECIES_SHUCKLE, 558},
@@ -8195,7 +8195,7 @@ static const struct SmogonTeammates sScizorTeammates_gen8balancedhackmons[] =
 	{SPECIES_ZYGARDE_COMPLETE, 1522},
 	{SPECIES_FERROTHORN, 225},
 	{SPECIES_GIRATINA, 225},
-	{SPECIES_MOLTRES_GALARIAN, 225},
+	{SPECIES_MOLTRES_GALAR, 225},
 	{SPECIES_VOLCARONA, 225},
 	{SPECIES_ELECTIVIRE, 208},
 	{SPECIES_KYUREM_BLACK, 208},
@@ -8240,7 +8240,7 @@ static const struct SmogonItems sMarowak_AlolaItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sMarowak_AlolaTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_HEATRAN, 9962},
-	{SPECIES_CALYREX_ICE_RIDER, 8819},
+	{SPECIES_CALYREX_ICE, 8819},
 	{SPECIES_KARTANA, 8819},
 	{SPECIES_ZACIAN, 8819},
 	{SPECIES_ZYGARDE_COMPLETE, 8819},
@@ -8335,7 +8335,7 @@ static const struct SmogonTeammates sSwampertTeammates_gen8balancedhackmons[] =
 	{SPECIES_PALKIA, 8531},
 	{SPECIES_TAPU_FINI, 8531},
 	{SPECIES_KINGLER, 3612},
-	{SPECIES_URSHIFU_RAPID_STRIKE_STYLE, 3166},
+	{SPECIES_URSHIFU_RAPID_STRIKE, 3166},
 	{SPECIES_BARRASKEWDA, 1753},
 	{SPECIES_BLISSEY, 732},
 	{SPECIES_CINDERACE, 729},
@@ -8381,7 +8381,7 @@ static const struct SmogonItems sRotom_HeatItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sRotom_HeatTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_CALYREX_ICE_RIDER, 9916},
+	{SPECIES_CALYREX_ICE, 9916},
 	{SPECIES_LUNALA, 9916},
 	{SPECIES_REGIGIGAS, 9916},
 	{SPECIES_XERNEAS, 9916},
@@ -8443,7 +8443,7 @@ static const struct SmogonTeammates sZarudeTeammates_gen8balancedhackmons[] =
 	{SPECIES_XURKITREE, 8162},
 	{SPECIES_FERROTHORN, 1572},
 	{SPECIES_DRAGAPULT, 1131},
-	{SPECIES_INDEEDEE_FEMALE, 1131},
+	{SPECIES_INDEEDEE, 1131},
 	{SPECIES_ZYGARDE_COMPLETE, 1131},
 	{SPECIES_KARTANA, 441},
 	{SPECIES_LEAFEON, 441},
@@ -8556,7 +8556,7 @@ static const struct SmogonTeammates sTyranitarTeammates_gen8balancedhackmons[] =
 	{SPECIES_NIHILEGO, 360},
 	{SPECIES_SHUCKLE, 360},
 	{SPECIES_TERRAKION, 360},
-	{SPECIES_CALYREX_ICE_RIDER, 296},
+	{SPECIES_CALYREX_ICE, 296},
 	{SPECIES_XERNEAS, 285},
 };
 
@@ -8617,7 +8617,7 @@ static const struct SmogonTeammates sDhelmiseTeammates_gen8balancedhackmons[] =
 	{SPECIES_GIRATINA, 1408},
 	{SPECIES_REGIGIGAS, 1408},
 	{SPECIES_XERNEAS, 1408},
-	{SPECIES_CALYREX_ICE_RIDER, 124},
+	{SPECIES_CALYREX_ICE, 124},
 	{SPECIES_KARTANA, 124},
 	{SPECIES_XURKITREE, 124},
 	{SPECIES_YVELTAL, 124},
@@ -8767,7 +8767,7 @@ static const struct SmogonItems sPorygon_ZItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sPorygon_ZTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_DRAGAPULT, 5623},
-	{SPECIES_URSHIFU_RAPID_STRIKE_STYLE, 5395},
+	{SPECIES_URSHIFU_RAPID_STRIKE, 5395},
 	{SPECIES_HEATRAN, 5388},
 	{SPECIES_MEWTWO, 5388},
 	{SPECIES_SKARMORY, 5388},
@@ -8940,7 +8940,7 @@ static const struct SmogonTeammates sAerodactylTeammates_gen8balancedhackmons[] 
 	{SPECIES_XERNEAS, 8593},
 	{SPECIES_PELIPPER, 1406},
 	{SPECIES_RESHIRAM, 1406},
-	{SPECIES_SANDSLASH_ALOLAN, 1406},
+	{SPECIES_SANDSLASH_ALOLA, 1406},
 	{SPECIES_URSHIFU, 1406},
 	{SPECIES_ZYGARDE_COMPLETE, 1406},
 };
@@ -8998,7 +8998,7 @@ static const struct SmogonTeammates sZapdosTeammates_gen8balancedhackmons[] =
 	{SPECIES_KYUREM_BLACK, 1820},
 	{SPECIES_PALKIA, 1820},
 	{SPECIES_PHEROMOSA, 1820},
-	{SPECIES_CALYREX_ICE_RIDER, 1750},
+	{SPECIES_CALYREX_ICE, 1750},
 	{SPECIES_TYRANITAR, 1705},
 	{SPECIES_ETERNATUS, 1635},
 	{SPECIES_DRAGONITE, 122},
@@ -9206,7 +9206,7 @@ static const struct SmogonTeammates sDarmanitanTeammates_gen8balancedhackmons[] 
 	{SPECIES_GIRATINA, 9298},
 	{SPECIES_LUGIA, 9298},
 	{SPECIES_MEWTWO, 9298},
-	{SPECIES_CALYREX_ICE_RIDER, 562},
+	{SPECIES_CALYREX_ICE, 562},
 	{SPECIES_GIGALITH, 562},
 	{SPECIES_VIKAVOLT, 562},
 	{SPECIES_WAILORD, 562},
@@ -9249,7 +9249,7 @@ static const struct SmogonTeammates sSkarmoryTeammates_gen8balancedhackmons[] =
 	{SPECIES_HEATRAN, 10000},
 	{SPECIES_MEWTWO, 10000},
 	{SPECIES_PORYGON_Z, 10000},
-	{SPECIES_URSHIFU_RAPID_STRIKE_STYLE, 10000},
+	{SPECIES_URSHIFU_RAPID_STRIKE, 10000},
 };
 
 static const struct SmogonAbilities sSkarmoryAbilities_gen8balancedhackmons[] =
@@ -9293,7 +9293,7 @@ static const struct SmogonTeammates sZeraoraTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_REGIGIGAS, 9018},
 	{SPECIES_YVELTAL, 6809},
-	{SPECIES_CALYREX_ICE_RIDER, 6086},
+	{SPECIES_CALYREX_ICE, 6086},
 	{SPECIES_GIRATINA, 6086},
 	{SPECIES_ZAMAZENTA, 6086},
 	{SPECIES_REGIELEKI, 3655},
@@ -9772,7 +9772,7 @@ static const struct SmogonItems sCinderaceItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sCinderaceTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_KYUREM_BLACK, 7328},
-	{SPECIES_CALYREX_ICE_RIDER, 7281},
+	{SPECIES_CALYREX_ICE, 7281},
 	{SPECIES_KARTANA, 7281},
 	{SPECIES_LANDORUS_THERIAN, 7281},
 	{SPECIES_NECROZMA_DUSK_MANE, 2702},
@@ -10008,7 +10008,7 @@ static const struct SmogonItems sLandorus_TherianItems_gen8balancedhackmons[] =
 static const struct SmogonTeammates sLandorus_TherianTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_KYUREM_BLACK, 8408},
-	{SPECIES_CALYREX_ICE_RIDER, 8233},
+	{SPECIES_CALYREX_ICE, 8233},
 	{SPECIES_CINDERACE, 8233},
 	{SPECIES_KARTANA, 8233},
 	{SPECIES_NECROZMA_DUSK_MANE, 3244},
@@ -10239,7 +10239,7 @@ static const struct SmogonTeammates sWailordTeammates_gen8balancedhackmons[] =
 	{SPECIES_REGIDRAGO, 2652},
 	{SPECIES_PORYGON_Z, 1721},
 	{SPECIES_AGGRON, 1659},
-	{SPECIES_CALYREX_ICE_RIDER, 1265},
+	{SPECIES_CALYREX_ICE, 1265},
 	{SPECIES_DARMANITAN, 1265},
 	{SPECIES_GENGAR, 1222},
 	{SPECIES_SIGILYPH, 1222},
@@ -10353,7 +10353,7 @@ static const struct SmogonTeammates sEspeonTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_HO_OH, 5131},
 	{SPECIES_KROOKODILE, 5131},
-	{SPECIES_NINETALES_ALOLAN, 5131},
+	{SPECIES_NINETALES_ALOLA, 5131},
 	{SPECIES_REGISTEEL, 5131},
 	{SPECIES_SYLVEON, 5131},
 	{SPECIES_DRAGAPULT, 4491},
@@ -10900,7 +10900,7 @@ static const struct SmogonTeammates sVikavoltTeammates_gen8balancedhackmons[] =
 	{SPECIES_PORYGON_Z, 2733},
 	{SPECIES_TERRAKION, 2733},
 	{SPECIES_AGGRON, 2635},
-	{SPECIES_CALYREX_ICE_RIDER, 2010},
+	{SPECIES_CALYREX_ICE, 2010},
 	{SPECIES_DARMANITAN, 2010},
 	{SPECIES_EXCADRILL, 1668},
 	{SPECIES_ARCHEOPS, 1213},
@@ -11030,7 +11030,7 @@ static const struct SmogonTeammates sKlinklangTeammates_gen8balancedhackmons[] =
 	{SPECIES_PORYGON_Z, 2881},
 	{SPECIES_TERRAKION, 2881},
 	{SPECIES_AGGRON, 2777},
-	{SPECIES_CALYREX_ICE_RIDER, 1867},
+	{SPECIES_CALYREX_ICE, 1867},
 	{SPECIES_DARMANITAN, 1867},
 	{SPECIES_EXCADRILL, 1759},
 	{SPECIES_ARCHEOPS, 1279},
@@ -11105,7 +11105,7 @@ static const struct SmogonTeammates sPelipperTeammates_gen8balancedhackmons[] =
 {
 	{SPECIES_RESHIRAM, 9892},
 	{SPECIES_AERODACTYL, 9588},
-	{SPECIES_SANDSLASH_ALOLAN, 9588},
+	{SPECIES_SANDSLASH_ALOLA, 9588},
 	{SPECIES_URSHIFU, 9588},
 	{SPECIES_ZYGARDE_COMPLETE, 9588},
 	{SPECIES_KARTANA, 304},
@@ -11215,7 +11215,7 @@ static const struct SmogonTeammates sKrookodileTeammates_gen8balancedhackmons[] 
 {
 	{SPECIES_ESPEON, 9984},
 	{SPECIES_HO_OH, 9984},
-	{SPECIES_NINETALES_ALOLAN, 9984},
+	{SPECIES_NINETALES_ALOLA, 9984},
 	{SPECIES_REGISTEEL, 9984},
 	{SPECIES_SYLVEON, 9984},
 };
@@ -11249,7 +11249,7 @@ static const struct SmogonTeammates sSylveonTeammates_gen8balancedhackmons[] =
 	{SPECIES_ESPEON, 10000},
 	{SPECIES_HO_OH, 10000},
 	{SPECIES_KROOKODILE, 10000},
-	{SPECIES_NINETALES_ALOLAN, 10000},
+	{SPECIES_NINETALES_ALOLA, 10000},
 	{SPECIES_REGISTEEL, 10000},
 };
 
@@ -11327,7 +11327,7 @@ static const struct SmogonTeammates sVolcaronaTeammates_gen8balancedhackmons[] =
 	{SPECIES_GROUDON, 6536},
 	{SPECIES_FERROTHORN, 2953},
 	{SPECIES_GIRATINA, 2953},
-	{SPECIES_MOLTRES_GALARIAN, 2953},
+	{SPECIES_MOLTRES_GALAR, 2953},
 	{SPECIES_SCIZOR, 2953},
 	{SPECIES_TOXTRICITY, 478},
 	{SPECIES_FROSLASS, 370},
@@ -11620,7 +11620,7 @@ static const struct SmogonTeammates sGigalithTeammates_gen8balancedhackmons[] =
 	{SPECIES_WAILORD, 8758},
 	{SPECIES_KLINKLANG, 8309},
 	{SPECIES_AGGRON, 4969},
-	{SPECIES_CALYREX_ICE_RIDER, 3790},
+	{SPECIES_CALYREX_ICE, 3790},
 	{SPECIES_DARMANITAN, 3790},
 };
 
@@ -12102,10 +12102,10 @@ static const struct SmogonItems sMetagrossItems_gen8balancedhackmons[] =
 
 static const struct SmogonTeammates sMetagrossTeammates_gen8balancedhackmons[] =
 {
-	{SPECIES_CALYREX_ICE_RIDER, 9934},
+	{SPECIES_CALYREX_ICE, 9934},
 	{SPECIES_TAPU_FINI, 9934},
 	{SPECIES_THUNDURUS_THERIAN, 9934},
-	{SPECIES_URSHIFU_RAPID_STRIKE_STYLE, 9934},
+	{SPECIES_URSHIFU_RAPID_STRIKE, 9934},
 	{SPECIES_XERNEAS, 9934},
 };
 
@@ -12350,7 +12350,7 @@ static const struct SmogonTeammates sDarmanitan_GalarTeammates_gen8balancedhackm
 	{SPECIES_GUZZLORD, 7394},
 	{SPECIES_XERNEAS, 7394},
 	{SPECIES_YVELTAL, 7394},
-	{SPECIES_CALYREX_ICE_RIDER, 2324},
+	{SPECIES_CALYREX_ICE, 2324},
 	{SPECIES_PALKIA, 2324},
 	{SPECIES_ZEKROM, 2324},
 	{SPECIES_SOLGALEO, 1895},
@@ -13020,7 +13020,7 @@ const struct Smogon gSmogon_gen8balancedhackmons[] =
     },
     [SMOGON_CALYREX_ICE_RIDER_INDEX_GEN8BALANCEDHACKMONS] =
     {
-        .species = SPECIES_CALYREX_ICE_RIDER,
+        .species = SPECIES_CALYREX_ICE,
         .usage = 848,
         .usageLower = 41945,
         .usageUpper = 42793,
@@ -13825,7 +13825,7 @@ const struct Smogon gSmogon_gen8balancedhackmons[] =
     },
     [SMOGON_URSHIFU_RAPID_STRIKE_STYLE_INDEX_GEN8BALANCEDHACKMONS] =
     {
-        .species = SPECIES_URSHIFU_RAPID_STRIKE_STYLE,
+        .species = SPECIES_URSHIFU_RAPID_STRIKE,
         .usage = 127,
         .usageLower = 56728,
         .usageUpper = 56855,
@@ -14170,7 +14170,7 @@ const struct Smogon gSmogon_gen8balancedhackmons[] =
     },
     [SMOGON_STUNFISK_GALARIAN_INDEX_GEN8BALANCEDHACKMONS] =
     {
-        .species = SPECIES_STUNFISK_GALARIAN,
+        .species = SPECIES_STUNFISK_GALAR,
         .usage = 76,
         .usageLower = 58192,
         .usageUpper = 58268,
@@ -14354,7 +14354,7 @@ const struct Smogon gSmogon_gen8balancedhackmons[] =
     },
     [SMOGON_MAROWAK_ALOLAN_INDEX_GEN8BALANCEDHACKMONS] =
     {
-        .species = SPECIES_MAROWAK_ALOLAN,
+        .species = SPECIES_MAROWAK_ALOLA,
         .usage = 48,
         .usageLower = 58706,
         .usageUpper = 58754,
@@ -14975,7 +14975,7 @@ const struct Smogon gSmogon_gen8balancedhackmons[] =
     },
     [SMOGON_CORSOLA_GALARIAN_INDEX_GEN8BALANCEDHACKMONS] =
     {
-        .species = SPECIES_CORSOLA_GALARIAN,
+        .species = SPECIES_CORSOLA_GALAR,
         .usage = 15,
         .usageLower = 59518,
         .usageUpper = 59533,
@@ -15435,7 +15435,7 @@ const struct Smogon gSmogon_gen8balancedhackmons[] =
     },
     [SMOGON_DUGTRIO_ALOLAN_INDEX_GEN8BALANCEDHACKMONS] =
     {
-        .species = SPECIES_DUGTRIO_ALOLAN,
+        .species = SPECIES_DUGTRIO_ALOLA,
         .usage = 7,
         .usageLower = 59729,
         .usageUpper = 59736,
@@ -15711,7 +15711,7 @@ const struct Smogon gSmogon_gen8balancedhackmons[] =
     },
     [SMOGON_INDEEDEE_FEMALE_INDEX_GEN8BALANCEDHACKMONS] =
     {
-        .species = SPECIES_INDEEDEE_FEMALE,
+        .species = SPECIES_INDEEDEE,
         .usage = 5,
         .usageLower = 59801,
         .usageUpper = 59806,
@@ -15757,7 +15757,7 @@ const struct Smogon gSmogon_gen8balancedhackmons[] =
     },
     [SMOGON_SANDSLASH_ALOLAN_INDEX_GEN8BALANCEDHACKMONS] =
     {
-        .species = SPECIES_SANDSLASH_ALOLAN,
+        .species = SPECIES_SANDSLASH_ALOLA,
         .usage = 4,
         .usageLower = 59810,
         .usageUpper = 59814,
@@ -15849,7 +15849,7 @@ const struct Smogon gSmogon_gen8balancedhackmons[] =
     },
     [SMOGON_NINETALES_ALOLAN_INDEX_GEN8BALANCEDHACKMONS] =
     {
-        .species = SPECIES_NINETALES_ALOLAN,
+        .species = SPECIES_NINETALES_ALOLA,
         .usage = 4,
         .usageLower = 59826,
         .usageUpper = 59830,
@@ -16493,7 +16493,7 @@ const struct Smogon gSmogon_gen8balancedhackmons[] =
     },
     [SMOGON_DARMANITAN_GALARIAN_INDEX_GEN8BALANCEDHACKMONS] =
     {
-        .species = SPECIES_DARMANITAN_GALARIAN,
+        .species = SPECIES_DARMANITAN_GALAR,
         .usage = 1,
         .usageLower = 59898,
         .usageUpper = 59899,
@@ -16539,7 +16539,7 @@ const struct Smogon gSmogon_gen8balancedhackmons[] =
     },
     [SMOGON_MOLTRES_GALARIAN_INDEX_GEN8BALANCEDHACKMONS] =
     {
-        .species = SPECIES_MOLTRES_GALARIAN,
+        .species = SPECIES_MOLTRES_GALAR,
         .usage = 1,
         .usageLower = 59900,
         .usageUpper = 59901,
