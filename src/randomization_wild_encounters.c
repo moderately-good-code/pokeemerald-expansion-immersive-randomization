@@ -763,7 +763,7 @@ static bool8 DoesSpeciesMatchCurrentMap_Land(u16 species, u16 currentMapId)
     return FALSE;
 }
 
-static bool8 DoesSpeciesMatchWater(species)
+static bool8 DoesSpeciesMatchWater(const u16 species)
 {
     u8 i;
 
@@ -787,7 +787,7 @@ static bool8 DoesSpeciesMatchWater(species)
     return FALSE;
 }
 
-static bool8 DoesSpeciesMatchRocks(species)
+static bool8 DoesSpeciesMatchRocks(const u16 species)
 {
     u8 i, j;
 
@@ -812,7 +812,7 @@ static bool8 DoesSpeciesMatchRocks(species)
     return FALSE;
 }
 
-static bool8 DoesSpeciesMatchFishing(species)
+static bool8 DoesSpeciesMatchFishing(const u16 species)
 {
     u8 i;
 
