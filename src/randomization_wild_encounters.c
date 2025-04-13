@@ -123,7 +123,7 @@ static bool8 DoesSpeciesMatchLandGeneralNature(u16 species)
         case EGG_GROUP_WATER_2:
         case EGG_GROUP_WATER_3:
         case EGG_GROUP_DRAGON:
-        case EGG_GROUP_UNDISCOVERED:
+        case EGG_GROUP_NO_EGGS_DISCOVERED:
             return FALSE;
         case EGG_GROUP_MONSTER:
         case EGG_GROUP_BUG:
@@ -165,7 +165,7 @@ static bool8 DoesSpeciesMatchLandNearWater(u16 species)
         case EGG_GROUP_WATER_2:
         case EGG_GROUP_WATER_3:
         case EGG_GROUP_DRAGON:
-        case EGG_GROUP_UNDISCOVERED:
+        case EGG_GROUP_NO_EGGS_DISCOVERED:
             return FALSE;
         case EGG_GROUP_MONSTER:
         case EGG_GROUP_BUG:
@@ -208,7 +208,7 @@ static bool8 DoesSpeciesMatchLandInWater(u16 species)
         case EGG_GROUP_WATER_2:
         case EGG_GROUP_WATER_3:
         case EGG_GROUP_DRAGON:
-        case EGG_GROUP_UNDISCOVERED:
+        case EGG_GROUP_NO_EGGS_DISCOVERED:
             return FALSE;
         case EGG_GROUP_WATER_1:
             match = TRUE;
@@ -250,7 +250,7 @@ static bool8 DoesSpeciesMatchLandInForest(u16 species)
         case EGG_GROUP_WATER_2:
         case EGG_GROUP_WATER_3:
         case EGG_GROUP_DRAGON:
-        case EGG_GROUP_UNDISCOVERED:
+        case EGG_GROUP_NO_EGGS_DISCOVERED:
             return FALSE;
         case EGG_GROUP_GRASS:
         case EGG_GROUP_BUG:
@@ -283,7 +283,7 @@ static bool8 DoesSpeciesMatchLandOnMountain(u16 species)
         case EGG_GROUP_NONE:
         case EGG_GROUP_WATER_2:
         case EGG_GROUP_WATER_3:
-        case EGG_GROUP_UNDISCOVERED:
+        case EGG_GROUP_NO_EGGS_DISCOVERED:
             return FALSE;
         case EGG_GROUP_DRAGON:
         case EGG_GROUP_HUMAN_LIKE:
@@ -368,7 +368,7 @@ static bool8 DoesSpeciesMatchLandInNormalCave(u16 species)
         case EGG_GROUP_NONE:
         case EGG_GROUP_WATER_2:
         case EGG_GROUP_WATER_3:
-        case EGG_GROUP_UNDISCOVERED:
+        case EGG_GROUP_NO_EGGS_DISCOVERED:
             return FALSE;
         case EGG_GROUP_DRAGON:
             // dragons allowed in caves, but not flying ones
@@ -401,7 +401,7 @@ static bool8 DoesSpeciesMatchLandInIcyCave(u16 species)
         case EGG_GROUP_NONE:
         case EGG_GROUP_WATER_2:
         case EGG_GROUP_WATER_3:
-        case EGG_GROUP_UNDISCOVERED:
+        case EGG_GROUP_NO_EGGS_DISCOVERED:
             return FALSE;
         case EGG_GROUP_MINERAL:
             match = TRUE;
@@ -504,7 +504,7 @@ static bool8 DoesSpeciesMatchLandNearVolcano(u16 species)
         case EGG_GROUP_WATER_1:
         case EGG_GROUP_WATER_2:
         case EGG_GROUP_WATER_3:
-        case EGG_GROUP_UNDISCOVERED:
+        case EGG_GROUP_NO_EGGS_DISCOVERED:
             return FALSE;
         case EGG_GROUP_DRAGON:
         case EGG_GROUP_MINERAL:
@@ -548,7 +548,7 @@ static bool8 DoesSpeciesMatchLandInCreepyArea(u16 species)
         case EGG_GROUP_WATER_1:
         case EGG_GROUP_WATER_2:
         case EGG_GROUP_WATER_3:
-        case EGG_GROUP_UNDISCOVERED:
+        case EGG_GROUP_NO_EGGS_DISCOVERED:
             return FALSE;
         case EGG_GROUP_DITTO:
         case EGG_GROUP_HUMAN_LIKE:
@@ -581,7 +581,7 @@ static bool8 DoesSpeciesMatchLandInIndustrialArea(u16 species)
         case EGG_GROUP_WATER_1:
         case EGG_GROUP_WATER_2:
         case EGG_GROUP_WATER_3:
-        case EGG_GROUP_UNDISCOVERED:
+        case EGG_GROUP_NO_EGGS_DISCOVERED:
             return FALSE;
         case EGG_GROUP_MINERAL:
             match = TRUE;
