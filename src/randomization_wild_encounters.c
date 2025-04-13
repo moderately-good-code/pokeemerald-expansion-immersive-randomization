@@ -32,10 +32,13 @@ static u8 GetMinEvolutionLevel(u16 species)
 {
     u8 i;
 
-    for (i = 0; i < EVOS_PER_MON; i++)
+    i = 0;
+    do
     {
         switch (gSpeciesInfo[species].evolutions[i].method)
         {
+        case EVOLUTIONS_END:
+            break;
         // case evolves via level:
         case EVO_LEVEL:
         case EVO_LEVEL_ATK_GT_DEF:
@@ -57,7 +60,7 @@ static u8 GetMinEvolutionLevel(u16 species)
         case EVO_LEVEL_FOG:
             return gSpeciesInfo[species].evolutions[i].param;
         }
-    }
+    } while (++i);
 
     // no evolution or evolution is level-independent
     return 1;

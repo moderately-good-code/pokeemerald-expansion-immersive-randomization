@@ -36,7 +36,8 @@ u16 GetEvolvedWildMonSpecies(u16 currentSpecies, u8 level)
 {
     u8 i;
 
-    for (i = 0; i < EVOS_PER_MON; i++)
+    i = 0;
+    do
     {
         switch (gSpeciesInfo[currentSpecies].evolutions[i].method)
         {
@@ -110,7 +111,7 @@ u16 GetEvolvedWildMonSpecies(u16 currentSpecies, u8 level)
             }
             break;
         }
-    }
+    } while (++i);
 
     return currentSpecies;
 }
@@ -119,14 +120,15 @@ u16 GetEvolvedWildMonSpecies(u16 currentSpecies, u8 level)
 bool8 DoesSpeciesMatchLevel(u16 species, u8 level)
 {
     u16 j;
-    u8 i, k;
+    u8 i;
 
-    for (i = 0; i < EVOS_PER_MON; i++)
+    i = 0;
+    do
     {
         switch (gSpeciesInfo[species].evolutions[i].method)
         {
         // case already evolved:
-        case 0:
+        case EVOLUTIONS_END:
             if ((i == 0) && (level < MIN_ENCOUNTER_LVL_NON_EVOLVERS))
             {
                 return FALSE;
@@ -158,13 +160,18 @@ bool8 DoesSpeciesMatchLevel(u16 species, u8 level)
             }
             break;
         }
-    }
+    } while (++i);
 
     // check if previous evolution aready evolved at this level:
     for (j=0; j<NUM_SPECIES; j++)
     {
-        for (i=0; i<EVOS_PER_MON; i++)
+        i = 0;
+        do
         {
+            if (gSpeciesInfo[j].evolutions[i].method != EVOLUTIONS_END)
+            {
+                break;
+            }
             if (gSpeciesInfo[j].evolutions[i].targetSpecies == species)
             {
                 switch (gSpeciesInfo[j].evolutions[i].method)
@@ -232,7 +239,7 @@ bool8 DoesSpeciesMatchLevel(u16 species, u8 level)
                     return FALSE;
                 }
             }
-        }
+        } while (++i);
     }
 
     return TRUE;
