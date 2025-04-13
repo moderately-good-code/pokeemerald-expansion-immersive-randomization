@@ -38,7 +38,7 @@ u16 GetEvolvedWildMonSpecies(u16 currentSpecies, u8 level)
 
     for (i = 0; i < EVOS_PER_MON; i++)
     {
-        switch (gSpeciesInfo[currentSpecies][i].method)
+        switch (gSpeciesInfo[currentSpecies].evolutions[i].method)
         {
         // case already evolved:
         case EVOLUTIONS_END:
@@ -67,7 +67,7 @@ u16 GetEvolvedWildMonSpecies(u16 currentSpecies, u8 level)
         case EVO_LEVEL_NATURE_AMPED:
         case EVO_LEVEL_NATURE_LOW_KEY:
         case EVO_LEVEL_FOG:
-            if (gSpeciesInfo[currentSpecies][i].param <= level)
+            if (gSpeciesInfo[currentSpecies].evolutions[i].param <= level)
             {
                 return gSpeciesInfo[currentSpecies].evolutions[i].targetSpecies;
             }
@@ -123,7 +123,7 @@ bool8 DoesSpeciesMatchLevel(u16 species, u8 level)
 
     for (i = 0; i < EVOS_PER_MON; i++)
     {
-        switch (gEvolutionTable[species][i].method)
+        switch (gSpeciesInfo[species].evolutions[i].method)
         {
         // case already evolved:
         case 0:
@@ -152,7 +152,7 @@ bool8 DoesSpeciesMatchLevel(u16 species, u8 level)
         case EVO_LEVEL_NATURE_AMPED:
         case EVO_LEVEL_NATURE_LOW_KEY:
         case EVO_LEVEL_FOG:
-            if (gEvolutionTable[species][i].param < level + MAX_LEVEL_OVER_EVOLUTION_LEVEL)
+            if (gSpeciesInfo[species].evolutions[i].param < level + MAX_LEVEL_OVER_EVOLUTION_LEVEL)
             {
                 return FALSE;
             }
@@ -165,9 +165,9 @@ bool8 DoesSpeciesMatchLevel(u16 species, u8 level)
     {
         for (i=0; i<EVOS_PER_MON; i++)
         {
-            if (gEvolutionTable[j][i].targetSpecies == species)
+            if (gSpeciesInfo[j].evolutions[i].targetSpecies == species)
             {
-                switch (gEvolutionTable[j][i].method)
+                switch (gSpeciesInfo[j].evolutions[i].method)
                 {
                 // case evolves via level:
                 case EVO_LEVEL:
@@ -188,7 +188,7 @@ bool8 DoesSpeciesMatchLevel(u16 species, u8 level)
                 case EVO_LEVEL_NATURE_AMPED:
                 case EVO_LEVEL_NATURE_LOW_KEY:
                 case EVO_LEVEL_FOG:
-                    if (gEvolutionTable[j][i].param <= level)
+                    if (gSpeciesInfo[j].evolutions[i].param <= level)
                     {
                         return TRUE;
                     }

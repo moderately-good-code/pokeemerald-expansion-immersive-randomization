@@ -20,7 +20,6 @@
 #define MIN_ENCOUNTER_EVO_LEVEL_BEFORE_BADGE_1  30
 
 extern struct SaveBlock2 *gSaveBlock2Ptr;
-extern struct Evolution gEvolutionTable[][EVOS_PER_MON];
 
 enum { // stolen from wild_encounter.c - find better solution than defining it here a 2nd time...
     WILD_AREA_LAND,
@@ -35,7 +34,7 @@ static u8 GetMinEvolutionLevel(u16 species)
 
     for (i = 0; i < EVOS_PER_MON; i++)
     {
-        switch (gEvolutionTable[species][i].method)
+        switch (gSpeciesInfo[species].evolutions[i].method)
         {
         // case evolves via level:
         case EVO_LEVEL:
@@ -56,7 +55,7 @@ static u8 GetMinEvolutionLevel(u16 species)
         case EVO_LEVEL_NATURE_AMPED:
         case EVO_LEVEL_NATURE_LOW_KEY:
         case EVO_LEVEL_FOG:
-            return gEvolutionTable[species][i].param;
+            return gSpeciesInfo[species].evolutions[i].param;
         }
     }
 
