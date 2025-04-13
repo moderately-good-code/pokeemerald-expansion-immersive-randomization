@@ -265,7 +265,7 @@ bool8 IsSpeciesValidWildEncounter(u16 species)
 u16 GetSpeciesMegaStone(u16 species)
 {
     u32 i;
-    const struct FormChange *formChanges = gFormChangeTablePointers[species];
+    const struct FormChange* formChanges = gSpeciesInfo[species].formChangeTable;
 
     if (formChanges != NULL)
     {
