@@ -1,7 +1,7 @@
 #include "global.h"
 #include "type_coverage_utilities.h"
 
-extern const uq4_12_t sTypeEffectivenessTable[NUMBER_OF_MON_TYPES][NUMBER_OF_MON_TYPES];
+extern const uq4_12_t gTypeEffectivenessTable[NUMBER_OF_MON_TYPES][NUMBER_OF_MON_TYPES];
 
 static u8 EffectivenessMultipliersToClassification(uq4_12_t multiplier1, uq4_12_t multiplier2)
 {
@@ -43,10 +43,10 @@ u8 GetEffectiveness(u8 moveType, u8 speciesType1, u8 speciesType2)
     }
     else
     {
-        multiplier2 = sTypeEffectivenessTable[moveType][speciesType2];
+        multiplier2 = gTypeEffectivenessTable[moveType][speciesType2];
     }
     return EffectivenessMultipliersToClassification(
-            sTypeEffectivenessTable[moveType][speciesType1], multiplier2);
+            gTypeEffectivenessTable[moveType][speciesType1], multiplier2);
 }
 
 u8 GetTypeCoverageScore(const struct TypeCoverageInfo* coverage)
