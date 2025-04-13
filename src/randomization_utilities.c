@@ -13,8 +13,6 @@
 
 #define MAX_LEVEL_OVER_EVOLUTION_LEVEL          7
 
-extern struct Evolution gEvolutionTable[][EVOS_PER_MON];
-
 static const u16 sBadgeFlags[8] = {
     FLAG_BADGE01_GET, FLAG_BADGE02_GET, FLAG_BADGE03_GET, FLAG_BADGE04_GET,
     FLAG_BADGE05_GET, FLAG_BADGE06_GET, FLAG_BADGE07_GET, FLAG_BADGE08_GET,
@@ -40,10 +38,10 @@ u16 GetEvolvedWildMonSpecies(u16 currentSpecies, u8 level)
 
     for (i = 0; i < EVOS_PER_MON; i++)
     {
-        switch (gEvolutionTable[currentSpecies][i].method)
+        switch (gSpeciesInfo[currentSpecies][i].method)
         {
         // case already evolved:
-        case 0:
+        case EVOLUTIONS_END:
             if ((i == 0) && (level < MIN_ENCOUNTER_LVL_NON_EVOLVERS))
             {
                 return currentSpecies;
@@ -69,9 +67,9 @@ u16 GetEvolvedWildMonSpecies(u16 currentSpecies, u8 level)
         case EVO_LEVEL_NATURE_AMPED:
         case EVO_LEVEL_NATURE_LOW_KEY:
         case EVO_LEVEL_FOG:
-            if (gEvolutionTable[currentSpecies][i].param <= level)
+            if (gSpeciesInfo[currentSpecies][i].param <= level)
             {
-                return gEvolutionTable[currentSpecies][i].targetSpecies;
+                return gSpeciesInfo[currentSpecies].evolutions[i].targetSpecies;
             }
             break;
         
@@ -82,7 +80,7 @@ u16 GetEvolvedWildMonSpecies(u16 currentSpecies, u8 level)
         case EVO_FRIENDSHIP_MOVE_TYPE:
             if (level >= MIN_ENCOUNTER_LVL_FRIENDSHIP_EVOLVERS)
             {
-                return gEvolutionTable[currentSpecies][i].targetSpecies;
+                return gSpeciesInfo[currentSpecies].evolutions[i].targetSpecies;
             }
             break;
 
@@ -92,7 +90,7 @@ u16 GetEvolvedWildMonSpecies(u16 currentSpecies, u8 level)
         case EVO_TRADE_SPECIFIC_MON:
             if (level >= MIN_ENCOUNTER_LVL_TRADE_EVOLVERS)
             {
-                return gEvolutionTable[currentSpecies][i].targetSpecies;
+                return gSpeciesInfo[currentSpecies].evolutions[i].targetSpecies;
             }
             break;
 
@@ -108,7 +106,7 @@ u16 GetEvolvedWildMonSpecies(u16 currentSpecies, u8 level)
         case EVO_ITEM_HOLD:
             if (level >= MIN_ENCOUNTER_LVL_ITEM_EVOLVERS)
             {
-                return gEvolutionTable[currentSpecies][i].targetSpecies;
+                return gSpeciesInfo[currentSpecies].evolutions[i].targetSpecies;
             }
             break;
         }
