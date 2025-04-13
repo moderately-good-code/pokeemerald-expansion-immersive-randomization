@@ -32,6 +32,11 @@ static u8 GetMinEvolutionLevel(u16 species)
 {
     u8 i;
 
+    if (gSpeciesInfo[species].evolutions == NULL)
+    {
+        return 100;
+    }
+
     i = 0;
     do
     {

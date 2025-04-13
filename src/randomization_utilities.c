@@ -36,17 +36,18 @@ u16 GetEvolvedWildMonSpecies(u16 currentSpecies, u8 level)
 {
     u8 i;
 
+    // case already evolved:
+    if (gSpeciesInfo[currentSpecies].evolutions == NULL)
+    {
+        return currentSpecies;
+    }
+
     i = 0;
     do
     {
         switch (gSpeciesInfo[currentSpecies].evolutions[i].method)
         {
-        // case already evolved:
         case EVOLUTIONS_END:
-            if ((i == 0) && (level < MIN_ENCOUNTER_LVL_NON_EVOLVERS))
-            {
-                return currentSpecies;
-            }
             break;
 
         // case evolves via level:
@@ -122,17 +123,18 @@ bool8 DoesSpeciesMatchLevel(u16 species, u8 level)
     u16 j;
     u8 i;
 
+    // case already evolved:
+    if (gSpeciesInfo[species].evolutions == NULL)
+    {
+        return (level >= MIN_ENCOUNTER_LVL_NON_EVOLVERS);
+    }
+
     i = 0;
     do
     {
         switch (gSpeciesInfo[species].evolutions[i].method)
         {
-        // case already evolved:
         case EVOLUTIONS_END:
-            if ((i == 0) && (level < MIN_ENCOUNTER_LVL_NON_EVOLVERS))
-            {
-                return FALSE;
-            }
             break;
         
         // case evolves via level:
@@ -165,10 +167,16 @@ bool8 DoesSpeciesMatchLevel(u16 species, u8 level)
     // check if previous evolution aready evolved at this level:
     for (j=0; j<NUM_SPECIES; j++)
     {
+        // if already evolved, skip
+        if (gSpeciesInfo[j].evolutions == NULL)
+        {
+            continue;
+        }
+
         i = 0;
         do
         {
-            if (gSpeciesInfo[j].evolutions[i].method != EVOLUTIONS_END)
+            if (gSpeciesInfo[j].evolutions[i].method == EVOLUTIONS_END)
             {
                 break;
             }
