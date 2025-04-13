@@ -247,14 +247,12 @@ bool8 DoesSpeciesMatchLevel(u16 species, u8 level)
 
 bool8 IsSpeciesValidWildEncounter(u16 species)
 {
-    u16 flags;
+    const struct SpeciesInfo* info;
 
-    flags = gSpeciesInfo[species].flags;
-    if ((flags & SPECIES_FLAG_LEGENDARY) 
-            || (flags & SPECIES_FLAG_MYTHICAL)
-            || (flags & SPECIES_FLAG_MEGA_EVOLUTION)
-            || (flags & SPECIES_FLAG_PRIMAL_REVERSION)
-            || (flags & SPECIES_FLAG_ULTRA_BEAST))
+    info = &(gSpeciesInfo[species]);
+    if (info->isLegendary || info->isMythical || info->isUltraBeast
+        || info->isParadox || info->isMegaEvolution || info->isGigantamax
+        || info->isTeraForm)
     {
         return FALSE;
     }
