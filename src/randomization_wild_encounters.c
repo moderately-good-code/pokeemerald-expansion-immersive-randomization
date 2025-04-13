@@ -327,7 +327,7 @@ static bool8 DoesSpeciesMatchLandInNormalCave(u16 species)
     case SPECIES_TRUBBISH:
     case SPECIES_GARBODOR:
     case SPECIES_VOLTORB:
-    case SPECIES_VOLTORB_HISUIAN:
+    case SPECIES_VOLTORB_HISUI:
     // these are amorphous, but don't fit into caves:
     case SPECIES_FRILLISH:
     case SPECIES_JELLICENT:
@@ -344,9 +344,9 @@ static bool8 DoesSpeciesMatchLandInNormalCave(u16 species)
     case SPECIES_GOURGEIST_LARGE:
     case SPECIES_GOURGEIST_SUPER:
     case SPECIES_SHELLOS:
-    case SPECIES_SHELLOS_EAST_SEA:
+    case SPECIES_SHELLOS_EAST:
     case SPECIES_GASTRODON:
-    case SPECIES_GASTRODON_EAST_SEA:
+    case SPECIES_GASTRODON_EAST:
     case SPECIES_TYNAMO:
     // these are dragons but don't fit into caves:
     case SPECIES_APPLIN:
