@@ -41,6 +41,7 @@
 #include "pokedex.h"
 #include "pokemon.h"
 #include "random.h"
+#include "randomization_npcs.h" // for ROM hack
 #include "recorded_battle.h"
 #include "roamer.h"
 #include "safari_zone.h"
@@ -1995,6 +1996,13 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     if (trainerNum == TRAINER_SECRET_BASE)
         return 0;
     retVal = CreateNPCTrainerPartyFromTrainer(party, GetTrainerStructFromId(trainerNum), firstTrainer, gBattleTypeFlags);
+
+    // insert randomization for ROM hack here:
+    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+    {
+        RandomizeTrainerParty(party, trainerNum, gTrainers[trainerNum]->trainerClass);
+    }
+
     return retVal;
 }
 
@@ -3448,6 +3456,16 @@ static void DoBattleIntro(void)
                 gBattleMons[battler].types[1] = gSpeciesInfo[gBattleMons[battler].species].types[1];
                 gBattleMons[battler].types[2] = TYPE_MYSTERY;
                 gBattleMons[battler].ability = GetAbilityBySpecies(gBattleMons[battler].species, gBattleMons[battler].abilityNum);
+
+
+
+                // TEST ABILITY RANDOMIZATION FOR ROM HACK HERE
+                SetRandomizedAbility(&(gBattleMons[battler]),
+                        TRAINER_BATTLE_PARAM.opponentA, gTrainers[TRAINER_BATTLE_PARAM.opponentA]->trainerClass,
+                        TRAINER_BATTLE_PARAM.opponentB, gTrainers[TRAINER_BATTLE_PARAM.opponentB]->trainerClass);
+
+
+
                 gBattleStruct->hpOnSwitchout[GetBattlerSide(battler)] = gBattleMons[battler].hp;
                 gBattleMons[battler].status2 = 0;
                 for (i = 0; i < NUM_BATTLE_STATS; i++)
