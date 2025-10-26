@@ -1993,6 +1993,7 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
 static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 firstTrainer)
 {
     u8 retVal;
+    bool8 isOneVsTwo = (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS && !BATTLE_TWO_VS_ONE_OPPONENT);
     if (trainerNum == TRAINER_SECRET_BASE)
         return 0;
     retVal = CreateNPCTrainerPartyFromTrainer(party, GetTrainerStructFromId(trainerNum), firstTrainer, gBattleTypeFlags);
@@ -2000,7 +2001,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     // insert randomization for ROM hack here:
     if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
     {
-        RandomizeTrainerParty(party, trainerNum, gTrainers[trainerNum]->trainerClass);
+        RandomizeTrainerParty(party, trainerNum, GetTrainerStructFromId(trainerNum)->trainerClass, isOneVsTwo);
     }
 
     return retVal;

@@ -898,7 +898,7 @@ static void SetGymType(u8* gymType)
     }
 }
 
-void RandomizeTrainerParty(struct Pokemon* party, u16 trainerNum, u8 trainerClass)
+void RandomizeTrainerParty(struct Pokemon* party, u16 trainerNum, u8 trainerClass, bool8 isOneVsTwo)
 {
     u16 preferredTierMonCount;
     u16 secondaryTierMonCount;
@@ -1102,7 +1102,9 @@ void RandomizeTrainerParty(struct Pokemon* party, u16 trainerNum, u8 trainerClas
             break;
         default:
             RandomizeNormalNPCTrainerParty(party, trainerNum, preferredTier, preferredTierMonCount,
-                    secondaryTier, secondaryTierMonCount, preferredType, badges, 3);
+                    secondaryTier, secondaryTierMonCount, preferredType, badges,
+                    isOneVsTwo ? 2 : 3); // TODO/BUG: this condition is necessary for some reason:
+                    // fighting against 3+3 somehow also causes protagonist's first 3 to be randomized
         }
     }
 }
